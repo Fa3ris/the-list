@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "The List",
-  description: "Things I did or plan to do",
+  description: "Things I did or plan to do someday... maybe",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

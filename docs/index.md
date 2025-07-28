@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "The List"
-  text: "Things I did or plan to do"
+  text: "Things I did or plan to do... maybe someday"
   tagline: My great project tagline
   actions:
     - theme: brand
@@ -22,4 +22,6 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
+
+<img src="./screenshot.png" alt="aah whatever"/>
 
