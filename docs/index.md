@@ -3,13 +3,23 @@
 layout: home
 
 hero:
-  name: "The List"
-  text: "Things I did or plan to do... maybe someday"
+  name: The List
+  text: Things I did or plan to do... maybe someday
   tagline: My great project tagline
   actions:
     - theme: brand
       text: Markdown Examples
       link: /markdown-examples
+
+    - theme: brand
+      text: Websites
+
+    - theme: brand
+      text: Videos
+
+    - theme: brand
+      text: Games
+
     - theme: alt
       text: API Examples
       link: /api-examples
