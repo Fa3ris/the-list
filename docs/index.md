@@ -8,28 +8,19 @@ hero:
   tagline: My great project tagline
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-
-    - theme: brand
-      text: Websites
-
-    - theme: brand
-      text: Videos
-
-    - theme: brand
-      text: Games
+      text: Manga
+      link: /manga
 
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Game
+      link: /game
 
 features:
-  - title: Feature A
+  - title: What I did
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+  - title: What I am doing
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - title: What I want to do
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
