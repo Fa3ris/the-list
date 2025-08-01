@@ -34,15 +34,16 @@ export default defineConfig({
     sidebar: {
       "/manga/": [
         {
+          base: '/manga',
           text: "Manga",
           items: [
-            { text: "Index", link: "/manga/" },
-            { text: "✅ Naruto", link: "/manga/naruto" },
-            { text: "🔄⏳📅 One Piece", link: "/manga/one-piece" },
+            { text: "Index", link: "/index" },
+            { text: "✅ Naruto", link: "/naruto" },
+            { text: "🔄⏳📅 One Piece", link: "/one-piece" },
             {
               text: 'recursive', collapsed: true, items: [
-                { text: 'Naruto again', link: '/manga/naruto' },
-                { text: 'One piece again', link: '/manga/one-piece' },
+                { text: 'Naruto again', link: '/naruto' },
+                { text: 'One piece again', link: '/one-piece' },
               ]
             }
           ],
@@ -50,47 +51,66 @@ export default defineConfig({
       ],
       "/game/": [
         {
+          base: '/game',
           text: "Game",
           items: [
-            { text: "Index", link: "/game/" },
-            { text: "✅ The Last of Us", link: "/game/tlou" },
+            { text: "Index", link: "/" },
+            { text: "✅ The Last of Us", link: "/tlou" },
+            {
+              base: '/game/action',
+              text: 'Action',
+              items: [
+                {text: 'KH', link: "/kingdom-hearts"}
+              ]
+            },
+{
+              base: '/game/rpg',
+              text: 'RPG',
+              items: [
+                {text: 'Pk Silver', link: "/pokemon-silver"}
+              ]
+            }
           ],
         },
       ],
       "/book/": [
         {
+          base: '/book',
           text: "Book",
           items: [
-            { text: "Index", link: "/book/" },
-            { text: "✅ The Fault in our Stars", link: "/book/the-fault-in-our-stars" },
+            { text: "Index", link: "/" },
+            { text: "✅ The Fault in our Stars", link: "/the-fault-in-our-stars" },
           ],
         },
 
       ],
       "/movie/": [
         {
+          base: '/movie',
           text: "Movie",
           items: [
-            { text: "Index", link: "/movie/" },
-            { text: "✅ The Arrival", link: "/movie/arrival" },
+            { text: "Index", link: "/" },
+            { text: "✅ The Arrival", link: "/arrival" },
           ],
         },
       ],
       "/music/": [
         {
+          base: '/music',
           text: "Music",
           items: [
-            { text: "Index", link: "/music/" },
-            { text: "✅ Colors", link: "/music/colors" },
+            { text: "Index", link: "/" },
+            { text: "✅ Colors", link: "/colors" },
           ],
         },
       ],
       "/dev/": [
         {
+          base: '/dev',
           text: "Programming",
           items: [
-            { text: "Index", link: "/dev/" },
-            { text: "🚧 Breakout", link: "/dev/breakout" },
+            { text: "Index", link: "/" },
+            { text: "🚧 Breakout", link: "/breakout" },
           ],
         },
       ]
