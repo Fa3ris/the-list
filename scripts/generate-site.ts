@@ -31,7 +31,7 @@ function generateSite() {
 
 
 type Filename = string
-type Nav = { [entry: string]: Nav | Filename}; 
+export type Nav = { [entry: string]: Nav | Filename}; 
 
 
 function walkDir(rootDir: string) {
@@ -39,8 +39,8 @@ function walkDir(rootDir: string) {
     const entries = fs.readdirSync(rootDir, { recursive: true, withFileTypes: true });
 
     const dirsToIgnore = [/\.vitepress/, /public/]
-
     const fileExtensionsToInclude = [/md/]
+
     const filtered = entries.filter(entry => {
 
         if (entry.isDirectory()) {
@@ -57,17 +57,15 @@ function walkDir(rootDir: string) {
 
         const rel = path.relative(DOCS_DIR, fullPath)
         if (entry.isFile()) {
-            // console.log('File:', fullPath);
             console.log('Rel File:', rel);
             files.push(fullPath)
         } else if (entry.isDirectory()) {
-            // console.log('Directory:', fullPath);
             console.log('Rel Dir:', rel);
             dirs.push(fullPath)
         }
     }
 
-    const arrays = dirs.map(dir => path.relative(DOCS_DIR, dir).split("/")).sort((p1, p2) => p1.length - p2.length)
+    const arrays = dirs.map(dir => path.relative(rootDir, dir).split("/")).sort((p1, p2) => p1.length - p2.length)
 
 
     console.log(arrays)
@@ -85,7 +83,7 @@ function walkDir(rootDir: string) {
 
     console.log(nav)
 
-    const relativeFiles = files.map(file => path.relative(DOCS_DIR, file).split('/'))
+    const relativeFiles = files.map(file => path.relative(rootDir, file).split('/'))
     console.log(relativeFiles)
 
     for (const relativePath of relativeFiles) {
@@ -102,18 +100,13 @@ function walkDir(rootDir: string) {
         
     }
 
+    console.log('nav',nav)
 
-
-    console.log(nav)
-
-
-    console.log(Object.entries(nav).map(([path, entries]) => {
-
-        console.log('entry', [path, entries])
-    }))
 
     return nav;
 }
+
+export { walkDir };
 
 // Run only if this file is executed directly
 if (process.argv[1] === import.meta.filename) {
