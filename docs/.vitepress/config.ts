@@ -21,6 +21,10 @@ export default defineConfig({
         items: [
           { text: "Manga", link: "/manga/" },
           { text: "Game", link: "/game/" },
+          { text: "Book", link: "/book/" },
+          { text: "Movie", link: "/movie/" },
+          { text: "Music", link: "/music/" },
+          { text: "Programming", link: "/dev/" },
         ],
       },
     ],
@@ -53,6 +57,43 @@ export default defineConfig({
           ],
         },
       ],
+      "/book/": [
+        {
+          text: "Book",
+          items: [
+            { text: "Index", link: "/book/" },
+            { text: "✅ The Fault in our Stars", link: "/book/the-fault-in-our-stars" },
+          ],
+        },
+
+      ],
+      "/movie/": [
+        {
+          text: "Movie",
+          items: [
+            { text: "Index", link: "/movie/" },
+            { text: "✅ The Arrival", link: "/movie/arrival" },
+          ],
+        },
+      ],
+      "/music/": [
+        {
+          text: "Music",
+          items: [
+            { text: "Index", link: "/music/" },
+            { text: "✅ Colors", link: "/music/colors" },
+          ],
+        },
+      ],
+      "/dev/": [
+        {
+          text: "Programming",
+          items: [
+            { text: "Index", link: "/dev/" },
+            { text: "🚧 Breakout", link: "/dev/breakout" },
+          ],
+        },
+      ]
     },
     socialLinks: [{ icon: "github", link: "https://github.com/Fa3ris" }],
   },
