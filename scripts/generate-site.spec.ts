@@ -67,9 +67,10 @@ describe('toSideBarNav', () => {
         })
     })
 
-     it.todo('multiple entries', () => {
+    it('multiple entries', () => {
         expect(toSideBarNav({
             book: { foo: 'foo', index: 'index' },
+            game: { baz: 'baz' }
         })).toStrictEqual({
             "/book": [
                 {
@@ -80,30 +81,75 @@ describe('toSideBarNav', () => {
                         { text: "Foo", link: "/foo" }
                     ]
                 }
-            ]
+            ],
+            '/game': [{
+                base: '/game',
+                text: 'Game',
+                items: [
+                    { text: 'Baz', link: '/baz' }
+                ]
+            }]
         })
     })
 
-     it.todo('nested entries', () => {
+    it('nested entries', () => {
         expect(toSideBarNav({
-            book: { foo: 'foo', index: 'index' },
+            game: { action: { baz: 'baz' } }
         })).toStrictEqual({
-            "/book": [
+            "/game": [
                 {
-                    base: '/book',
-                    text: 'Book',
+                    base: '/game',
+                    text: 'Game',
                     items: [
-                        { text: "Index", link: "/index" },
-                        { text: "Foo", link: "/foo" }
+                        {
+                            base: '/game/action',
+                            text: 'Action',
+                            items: [
+                                { text: 'Baz', link: "/baz" }
+                            ]
+                        }
                     ]
                 }
             ]
         })
     })
 
-     it('ignore index if missing', () => {
+    it('multiple nested entries', () => {
         expect(toSideBarNav({
-            book: { foo: 'foo',  },
+            game: { action: { baz: 'baz' }, rpg: { japan: { pokemon: 'pokemon' } } }
+        })).toStrictEqual({
+            "/game": [
+                {
+                    base: '/game',
+                    text: 'Game',
+                    items: [
+                        {
+                            base: '/game/action',
+                            text: 'Action',
+                            items: [
+                                { text: 'Baz', link: "/baz" }
+                            ]
+                        },
+                        {
+                            base: '/game/rpg',
+                            text: 'Rpg',
+                            items: [
+                                {
+                                    base: '/game/rpg/japan', text: 'Japan', items: [
+                                        { text: 'Pokemon', link: '/pokemon' }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        })
+    })
+
+    it('ignore index if missing', () => {
+        expect(toSideBarNav({
+            book: { foo: 'foo', },
         })).toStrictEqual({
             "/book": [
                 {

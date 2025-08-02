@@ -1,6 +1,7 @@
 import path from 'path';
 
 import fs from 'fs';
+import type { DefaultTheme } from 'vitepress';
 
 const DOCS_DIR = path.resolve(process.env.INIT_CWD || path.dirname(import.meta.dirname), 'docs')
 
@@ -98,41 +99,32 @@ function capitalizeFirstLetter(str: string): string {
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
-function toSideBarNav(nav: Nav) {
-    const entries = Object.entries(nav)
-    const firstEntry = entries[0]
-    const res = {}
-    const [entryName, entryContent] = firstEntry;
+function toSideBarNav(nav: Nav): DefaultTheme.Sidebar {
+    return Object.fromEntries(Object.entries(nav).map(([entryName, entryContent]) => {
+        if (typeof entryContent !== 'object') return []
+        return [`/${entryName}`, [toSideBarItem(entryName, entryContent, [])]];
+    }))
 
-    if (typeof entryContent === 'object') {
+}
 
-        const items: { text: string, link: string }[] = []
+function toSideBarItem(entryName: string, content: Filename | Nav, parentPath: string[]): DefaultTheme.SidebarItem {
 
-        let indexFile: { text: string, link: string } | undefined = undefined;
-
-        const children = Object.entries(entryContent)
-        for (const [childName, childContent] of children) {
-            if (typeof childContent === 'string') {
-const linkInfo = { text: capitalizeFirstLetter(childName), link: `/${childName}` }
-                if (childName === 'index') {
-                    indexFile = linkInfo
-                } else {
-                    items.push(linkInfo)
-                }
-            }
-        }
-
-        res[`/${entryName}`] = [
-            {
-                base: `/${entryName}`,
-                text: capitalizeFirstLetter(entryName),
-                items: indexFile ? [indexFile].concat(items) : items,
-            }
-        ]
-
+    if (typeof content === 'string') {
+        return { text: capitalizeFirstLetter(content), link: `/${content}` }
     }
 
-    return res;
+    const items = Object.entries(content).map(entry =>
+        toSideBarItem(entry[0], entry[1], [...parentPath, entryName])
+    )
+
+    const indexFileIdx = items.findIndex(({ text }) => typeof text === 'string' && text.toLowerCase() === 'index')
+    const [indexFile] = indexFileIdx >= 0 ? items.splice(indexFileIdx, 1) : [undefined];
+
+    return {
+        base: `/${parentPath.length > 0 ? `${parentPath.join('/')}/` : ''}${entryName}`,
+        text: capitalizeFirstLetter(entryName),
+        items: indexFile ? [indexFile].concat(items) : items
+    }
 }
 
 
