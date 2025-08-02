@@ -1,6 +1,6 @@
-import path from 'path'
+import path from 'path';
 
-import fs, { glob } from 'fs'
+import fs from 'fs';
 
 const DOCS_DIR = path.resolve(process.env.INIT_CWD || path.dirname(import.meta.dirname), 'docs')
 
@@ -31,15 +31,17 @@ function generateSite() {
 
 
 type Filename = string
-export type Nav = { [entry: string]: Nav | Filename}; 
+export type Nav = { [entry: string]: Nav | Filename };
 
 
-function walkDir(rootDir: string) {
+function walkDir(rootDir: string, options = {
+    dirsToIgnore: [/\.vitepress/, /public/],
+    fileExtensionsToInclude: [/md/]
+}) {
 
     const entries = fs.readdirSync(rootDir, { recursive: true, withFileTypes: true });
 
-    const dirsToIgnore = [/\.vitepress/, /public/]
-    const fileExtensionsToInclude = [/md/]
+    const { dirsToIgnore, fileExtensionsToInclude } = options
 
     const filtered = entries.filter(entry => {
 
@@ -54,59 +56,87 @@ function walkDir(rootDir: string) {
     const dirs: string[] = []
     for (const entry of filtered) {
         const fullPath = path.resolve(entry.parentPath, entry.name);
-
-        const rel = path.relative(DOCS_DIR, fullPath)
         if (entry.isFile()) {
-            console.log('Rel File:', rel);
             files.push(fullPath)
         } else if (entry.isDirectory()) {
-            console.log('Rel Dir:', rel);
             dirs.push(fullPath)
         }
     }
 
-    const arrays = dirs.map(dir => path.relative(rootDir, dir).split("/")).sort((p1, p2) => p1.length - p2.length)
-
-
-    console.log(arrays)
+    const dirPaths = dirs.map(dir => path.relative(rootDir, dir).split("/")).sort((p1, p2) => p1.length - p2.length)
 
     const nav: Nav = {};
 
-    for (const dirPath of arrays) {
-        let currentFolder = nav;
-        for (const folder of dirPath) {
-            currentFolder[folder] = typeof currentFolder[folder] === 'object' ? currentFolder[folder] : {};
-            currentFolder = currentFolder[folder]
+    for (const dirPath of dirPaths) {
+        let currentDir = nav;
+        for (const dir of dirPath) {
+            currentDir[dir] = typeof currentDir[dir] === 'object' ? currentDir[dir] : {};
+            currentDir = currentDir[dir]
         }
     }
 
 
-    console.log(nav)
+    const relativeFilePaths = files.map(file => path.relative(rootDir, file).split('/'))
 
-    const relativeFiles = files.map(file => path.relative(rootDir, file).split('/'))
-    console.log(relativeFiles)
-
-    for (const relativePath of relativeFiles) {
-        
-        let currentFolder = nav;
-        for(const entry of relativePath) {
-            if (typeof currentFolder[entry] === 'object') {
-                currentFolder = currentFolder[entry]
+    for (const relativePath of relativeFilePaths) {
+        let currentDir = nav;
+        for (const entry of relativePath) {
+            if (typeof currentDir[entry] === 'object') {
+                currentDir = currentDir[entry]
             } else {
                 const parsed = path.parse(entry)
-                currentFolder[parsed.name] = parsed.name
+                currentDir[parsed.name] = parsed.name
             }
         }
-        
     }
-
-    console.log('nav',nav)
-
 
     return nav;
 }
 
-export { walkDir };
+
+function capitalizeFirstLetter(str: string): string {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+function toSideBarNav(nav: Nav) {
+    const entries = Object.entries(nav)
+    const firstEntry = entries[0]
+    const res = {}
+    const [entryName, entryContent] = firstEntry;
+
+    if (typeof entryContent === 'object') {
+
+        const items: { text: string, link: string }[] = []
+
+        let indexFile: { text: string, link: string } | undefined = undefined;
+
+        const children = Object.entries(entryContent)
+        for (const [childName, childContent] of children) {
+            if (typeof childContent === 'string') {
+const linkInfo = { text: capitalizeFirstLetter(childName), link: `/${childName}` }
+                if (childName === 'index') {
+                    indexFile = linkInfo
+                } else {
+                    items.push(linkInfo)
+                }
+            }
+        }
+
+        res[`/${entryName}`] = [
+            {
+                base: `/${entryName}`,
+                text: capitalizeFirstLetter(entryName),
+                items: indexFile ? [indexFile].concat(items) : items,
+            }
+        ]
+
+    }
+
+    return res;
+}
+
+
+export { toSideBarNav, walkDir };
 
 // Run only if this file is executed directly
 if (process.argv[1] === import.meta.filename) {
