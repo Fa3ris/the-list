@@ -28,6 +28,7 @@ export default defineConfig({
           { text: "Programming", link: "/dev/" },
         ],
       },
+      { text: "Deployment", link: "/deployment" },
     ],
     search: {
       provider: "local", // local site indexing with minisearch + search bar
