@@ -1,1 +1,4 @@
-Lugia
+---
+Title: Pokemon Argent
+Emoji: ✅⭐️
+---
