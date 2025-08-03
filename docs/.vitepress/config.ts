@@ -5,6 +5,7 @@ import sidebar from "./sidebar";
 export default defineConfig({
   title: "The List",
   description: "Things I did or plan to do someday... maybe",
+  base: '/the-list',
   lastUpdated: true,
   themeConfig: {
     lastUpdated: {
