@@ -28,7 +28,7 @@ export default {
           "link": "/index"
         },
         {
-          "text": "Breakout",
+          "text": "🚧 Breakout",
           "link": "/breakout"
         }
       ]
@@ -80,11 +80,11 @@ export default {
           "link": "/index"
         },
         {
-          "text": "Naruto",
+          "text": "✅ Naruto",
           "link": "/naruto"
         },
         {
-          "text": "One-piece",
+          "text": "🔄⏳📅 One Piece",
           "link": "/one-piece"
         }
       ]
@@ -100,7 +100,7 @@ export default {
           "link": "/index"
         },
         {
-          "text": "Arrival",
+          "text": "✅ Arrival",
           "link": "/arrival"
         }
       ]
@@ -116,7 +116,7 @@ export default {
           "link": "/index"
         },
         {
-          "text": "Colors",
+          "text": "✅ Colors",
           "link": "/colors"
         }
       ]

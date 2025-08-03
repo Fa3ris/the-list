@@ -1,3 +1,7 @@
+---
+emoji: ✅
+---
+
 Naruto
 
 rasengan
