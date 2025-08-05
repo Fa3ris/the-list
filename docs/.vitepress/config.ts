@@ -2,11 +2,14 @@ import { defineConfig } from "vitepress";
 import sidebar from "./sidebar";
 
 // https://vitepress.dev/reference/site-config
+
+const base = '/the-list'
 export default defineConfig({
   title: "The List",
   description: "Things I did or plan to do someday... maybe",
-  base: '/the-list',
+  base,
   lastUpdated: true,
+  cleanUrls: true,
   themeConfig: {
     lastUpdated: {
       text: "when did I update this",
@@ -37,5 +40,5 @@ export default defineConfig({
     sidebar,
     socialLinks: [{ icon: "github", link: "https://github.com/Fa3ris" }],
   },
-  head: [["link", { rel: "icon", href: "/checklist.png" }]],
+  head: [["link", { rel: "icon", href: `${base}/checklist.png` }]],
 });

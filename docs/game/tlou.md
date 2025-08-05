@@ -1,1 +1,4 @@
-the last of us
+---
+title: The Last of Us
+Emoji: ✅⭐️
+---

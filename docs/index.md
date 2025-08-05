@@ -4,8 +4,9 @@ layout: home
 
 hero:
   name: The List
-  text: Things I did or plan to do... maybe someday
-  tagline: My great project tagline
+  text: Things I did or plan to do... someday... maybe 
+  tagline: Just something for myself
+
   actions:
     - theme: brand
       text: Manga
@@ -16,13 +17,13 @@ hero:
       link: /game
 
 features:
-  - title: What I did
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: What I am doing
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: What I want to do
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Been there, done that
+    details: Stuff I particularly enjoyed
+  - title: Todo
+    details: Stuff that I would like/need to make time to do
+  - title: Mix of French and English
+    details: Depends on the mood
 ---
 
-<img src="./screenshot.png" alt="aah whatever"/>
+<img src="./screenshot.png" alt="here is a screenshot"/>
 
