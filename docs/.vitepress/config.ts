@@ -1,5 +1,6 @@
 import { defineConfig } from "vitepress";
 import sidebar from "./sidebar";
+import nav from "./nav";
 
 // https://vitepress.dev/reference/site-config
 
@@ -19,21 +20,7 @@ export default defineConfig({
       },
     },
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: "Home", link: "/" },
-      {
-        text: "Categories",
-        items: [
-          { text: "Manga", link: "/manga/" },
-          { text: "Game", link: "/game/" },
-          { text: "Book", link: "/book/" },
-          { text: "Movie", link: "/movie/" },
-          { text: "Music", link: "/music/" },
-          { text: "Programming", link: "/dev/" },
-        ],
-      },
-      { text: "Deployment", link: "/deployment" },
-    ],
+    nav,
     search: {
       provider: "local", // local site indexing with minisearch + search bar
     },

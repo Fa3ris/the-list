@@ -16,6 +16,7 @@
     "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
+    "gray-matter": "^4.0.3",
     "memfs": "^4.34.0",
     "puppeteer": "^24.15.0",
     "tsx": "^4.20.3",

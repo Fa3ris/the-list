@@ -2,6 +2,18 @@
 
 import type { DefaultTheme } from "vitepress";
 export default {
+  "/anime": [
+    {
+      "base": "/anime",
+      "text": "Anime",
+      "items": [
+        {
+          "text": "Index",
+          "link": "/index"
+        }
+      ]
+    }
+  ],
   "/book": [
     {
       "base": "/book",
@@ -24,12 +36,16 @@ export default {
       "text": "Dev",
       "items": [
         {
-          "text": "Index",
-          "link": "/index"
-        },
-        {
           "text": "🚧 Breakout",
           "link": "/breakout"
+        },
+        {
+          "text": "Git",
+          "link": "/git"
+        },
+        {
+          "text": "Programming",
+          "link": "/index"
         }
       ]
     }
@@ -64,7 +80,7 @@ export default {
           ]
         },
         {
-          "text": "Tlou",
+          "text": "✅⭐️ The Last of Us",
           "link": "/tlou"
         }
       ]
@@ -118,6 +134,18 @@ export default {
         {
           "text": "✅ Colors",
           "link": "/colors"
+        }
+      ]
+    }
+  ],
+  "/series": [
+    {
+      "base": "/series",
+      "text": "Series",
+      "items": [
+        {
+          "text": "Index",
+          "link": "/index"
         }
       ]
     }
