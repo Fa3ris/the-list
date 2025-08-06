@@ -21,5 +21,8 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
+  "vueCompilerOptions": {
+    "globalTypesPath": "./my-global-types.d.ts"
+  },
   "include": ["src"]
 }

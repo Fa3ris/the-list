@@ -1,6 +1,7 @@
 import { defineConfig } from "vitepress";
 import sidebar from "./sidebar";
 import nav from "./nav";
+import path from "path";
 
 // https://vitepress.dev/reference/site-config
 
@@ -28,4 +29,11 @@ export default defineConfig({
     socialLinks: [{ icon: "github", link: "https://github.com/Fa3ris" }],
   },
   head: [["link", { rel: "icon", href: `${base}/checklist.png` }]],
+  vite: {
+    resolve: {
+      alias: {
+        '@components': path.resolve(import.meta.dirname, '..', '..', 'src') 
+      }
+    }
+  }
 });
