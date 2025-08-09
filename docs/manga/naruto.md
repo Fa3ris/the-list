@@ -1,31 +1,17 @@
 ---
+title: Naruto
 emoji: ✅
 ---
 
 <script setup>
 import Blur from '@components/Blur.vue'
 </script>
-Naruto
+
+# {{ $frontmatter.title }}
+
+![Static Badge](https://img.shields.io/badge/Rank-GOAT-blue)
 
 <Blur>
-rasengan: this is a technique used over and over in the series
-rasengan: this is a technique used over and over in the series
-rasengan: this is a technique used over and over in the series
-rasengan: this is a technique used over and over in the series
-rasengan: this is a technique used over and over in the series
-rasengan: this is a technique used over and over in the series
-
-
-
-rasengan: this is a technique used over and over in the series
-rasengan: this is a technique used over and over in the series
-rasengan: this is a technique used over and over in the series
-rasengan: this is a technique used over and over in the series
-rasengan: this is a technique used over and over in the series
+Naruto is the son of the 4th Hokage.
 </Blur>
 
-
-
-<Blur>
-rasengan: this is a technique used over and over in the series
-</Blur>

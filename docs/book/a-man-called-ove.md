@@ -1,6 +1,5 @@
 ---
-title: Colors
-emoji: ✅
+title: A Man called Ove 
 ---
 
 

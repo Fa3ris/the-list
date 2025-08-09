@@ -1,6 +1,5 @@
 ---
-title: Colors
-emoji: ✅
+title: Sekiro
 ---
 
 

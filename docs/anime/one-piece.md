@@ -1,7 +1,5 @@
 ---
-title: Colors
-emoji: ✅
+title: One Piece
 ---
-
 
 # {{ $frontmatter.title }}

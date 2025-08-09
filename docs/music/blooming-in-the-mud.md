@@ -1,6 +1,5 @@
 ---
-title: Colors
-emoji: ✅
+title: Blooming in the mud
 ---
 
 
