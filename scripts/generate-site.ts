@@ -19,6 +19,10 @@ const japan: Doc = {
   article: "lovely",
 };
 
+const overridesFolderNameWith = {
+  dev: "Programming",
+};
+
 function generateVitePressMarkdown(item: Doc) {
   return `---
 title: ${item.title}
@@ -190,7 +194,7 @@ function toSideBarItem(
     base: `/${
       parentPath.length > 0 ? `${parentPath.join("/")}/` : ""
     }${entryName}`,
-    text: capitalizeFirstLetter(entryName),
+    text: overridesFolderNameWith[entryName] ?? capitalizeFirstLetter(entryName),
     items: indexFile ? [indexFile].concat(items) : items,
   };
 }
@@ -214,10 +218,6 @@ export default ${JSON.stringify(
     2
   )} satisfies DefaultTheme.Sidebar`
 );
-
-const overridesFolderNameWith = {
-  dev: "Programming",
-};
 
 const rootDirs = Object.entries(nav).filter(
   ([key, entry]) => typeof entry === "object"
