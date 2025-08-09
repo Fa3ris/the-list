@@ -10,6 +10,22 @@ export default {
         {
           "text": "Index",
           "link": "/index"
+        },
+        {
+          "text": "Bleach",
+          "link": "/bleach"
+        },
+        {
+          "text": "Get Backers",
+          "link": "/get-backers"
+        },
+        {
+          "text": "Naruto",
+          "link": "/naruto"
+        },
+        {
+          "text": "One Piece",
+          "link": "/one-piece"
         }
       ]
     }
@@ -24,6 +40,14 @@ export default {
           "link": "/index"
         },
         {
+          "text": "A Man called Ove",
+          "link": "/a-man-called-ove"
+        },
+        {
+          "text": "Fils des brumes",
+          "link": "/mistborn"
+        },
+        {
           "text": "✅⭐️ Nos Etoiles Contraires",
           "link": "/the-fault-in-our-stars"
         }
@@ -33,8 +57,12 @@ export default {
   "/dev": [
     {
       "base": "/dev",
-      "text": "Dev",
+      "text": "Programming",
       "items": [
+        {
+          "text": "Index",
+          "link": "/index"
+        },
         {
           "text": "🚧 Breakout",
           "link": "/breakout"
@@ -44,8 +72,12 @@ export default {
           "link": "/git"
         },
         {
-          "text": "Programming",
-          "link": "/index"
+          "text": "JACK compiler",
+          "link": "/jack-compiler"
+        },
+        {
+          "text": "Tiny renderer",
+          "link": "/tiny-renderer"
         }
       ]
     }
@@ -66,6 +98,10 @@ export default {
             {
               "text": "✅⭐️ Kingdom Hearts",
               "link": "/kingdom-hearts"
+            },
+            {
+              "text": "Sekiro",
+              "link": "/sekiro"
             }
           ]
         },
@@ -116,8 +152,12 @@ export default {
           "link": "/index"
         },
         {
-          "text": "✅ Arrival",
+          "text": "✅ The Arrival",
           "link": "/arrival"
+        },
+        {
+          "text": "Harry Potter",
+          "link": "/harry-potter"
         }
       ]
     }
@@ -130,6 +170,10 @@ export default {
         {
           "text": "Index",
           "link": "/index"
+        },
+        {
+          "text": "Blooming in the mud",
+          "link": "/blooming-in-the-mud"
         },
         {
           "text": "✅ Colors",
@@ -146,6 +190,22 @@ export default {
         {
           "text": "Index",
           "link": "/index"
+        },
+        {
+          "text": "Brookly 99",
+          "link": "/brooklyn-99"
+        },
+        {
+          "text": "Friends",
+          "link": "/friends"
+        },
+        {
+          "text": "How I met your Mother",
+          "link": "/himym"
+        },
+        {
+          "text": "Suits",
+          "link": "/suits"
         }
       ]
     }

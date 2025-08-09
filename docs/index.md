@@ -38,5 +38,12 @@ features:
     details: Depends on the mood
 ---
 
+
+![Static Badge](https://img.shields.io/badge/passing-too-blue)
+
+![Static Badge](https://img.shields.io/badge/fire-too-green)
+
+
+
 <img src="./screenshot.png" alt="here is a screenshot"/>
 
