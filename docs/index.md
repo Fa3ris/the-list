@@ -44,6 +44,11 @@ features:
 ![Static Badge](https://img.shields.io/badge/fire-too-green)
 
 
+<script setup>
+import ThemeColorPicker from '@components/ThemeColorPicker.vue'
+</script>
+
+<ThemeColorPicker css-var="--vp-c-bg"  />
 
 <img src="./screenshot.png" alt="here is a screenshot"/>
 

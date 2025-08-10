@@ -42,6 +42,16 @@
  *    to create a accent, such as when having inline code block inside
  *    custom containers.
  * -------------------------------------------------------------------------- */
+:root {
+
+  --color-glacier: #6d9dc5;
+  --color-butterfly: #5e4b8b;
+  --color-amaranth: #da1b61;
+  --color-texas: #ffb84d;
+  --color-bittersweet: #ff6e61;
+  --color-science-blue: #0450c3;
+
+}
 
 :root {
   --vp-c-gray-1: #dddde3;
@@ -126,6 +136,7 @@
 
 :root {
   --vp-c-bg: #ffffff;
+  --vp-c-bg: var(--color-glacier);
   --vp-c-bg-alt: #f6f6f7;
   --vp-c-bg-elv: #ffffff;
   --vp-c-bg-soft: #f6f6f7;
@@ -133,8 +144,13 @@
 
 .dark {
   --vp-c-bg: #1b1b1f;
+  --vp-c-bg: var(--color-glacier);
   --vp-c-bg-alt: #161618;
+
+  --vp-c-bg-alt: var(--color-butterfly);
   --vp-c-bg-elv: #202127;
+
+  --vp-c-bg-elv: var(--color-science-blue);
   --vp-c-bg-soft: #202127;
 }
 
@@ -153,13 +169,19 @@
 
 :root {
   --vp-c-border: #c2c2c4;
+  --vp-c-border: var(--color-amaranth);
   --vp-c-divider: #e2e2e3;
+
+  --vp-c-divider: var(--color-amaranth);
   --vp-c-gutter: #e2e2e3;
 }
 
 .dark {
   --vp-c-border: #3c3f44;
+  --vp-c-border: var(--color-amaranth);
   --vp-c-divider: #2e2e32;
+
+  --vp-c-divider: var(--color-amaranth);
   --vp-c-gutter: #000000;
 }
 
@@ -214,7 +236,9 @@
 
   --vp-c-brand-1: var(--vp-c-indigo-1);
   --vp-c-brand-2: var(--vp-c-indigo-2);
+  --vp-c-brand-2: var(--color-texas);
   --vp-c-brand-3: var(--vp-c-indigo-3);
+  --vp-c-brand-3: var(--color-amaranth);
   --vp-c-brand-soft: var(--vp-c-indigo-soft);
 
   /* DEPRECATED: Use `--vp-c-brand-1` instead. */

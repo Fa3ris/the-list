@@ -3,16 +3,18 @@
     "target": "ES2022",
     "useDefineForClassFields": true,
     "module": "ESNext",
-    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
     "skipLibCheck": true,
-
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
     "noEmit": true,
-
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
@@ -22,7 +24,15 @@
     "noUncheckedSideEffectImports": true
   },
   "vueCompilerOptions": {
-    "globalTypesPath": "./my-global-types.d.ts"
+    "vitePressExtensions": [
+      ".md"
+    ],
+    // "globalTypesPath": "./my-global-types.d.ts"
   },
-  "include": ["src"]
+  "include": [
+    "src",
+    "docs/**/*.ts",
+    "docs/**/*.vue",
+    "docs/**/*.md",
+  ]
 }
