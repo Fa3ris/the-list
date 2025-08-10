@@ -25,9 +25,9 @@
   },
   "vueCompilerOptions": {
     "vitePressExtensions": [
-      ".md"
+      ".md",
+      ".vue"
     ],
-    // "globalTypesPath": "./my-global-types.d.ts"
   },
   "include": [
     "src",

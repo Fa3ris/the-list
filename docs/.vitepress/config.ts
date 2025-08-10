@@ -32,7 +32,8 @@ export default defineConfig({
   vite: {
     resolve: {
       alias: {
-        '@components': path.resolve(import.meta.dirname, '..', '..', 'src') 
+        '@components': path.resolve(import.meta.dirname, '..', '..', 'src'),
+        '@vp': path.resolve(import.meta.dirname)  
       }
     }
   }

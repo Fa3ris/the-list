@@ -1,17 +1,15 @@
-
 <template>
-<div>
-  <input type="color" :id="id" name="bg-color" value="#e66465" @change="bgColorChange" />
-  <label :for="id">Background color</label>
-</div>
+  <div :style="{display: 'flex'}">
+    <input type="color" :id="id" name="bg-color" :value="value" @change="handleValue" />
+    <label :for="id">{{ cssVar }} {{ value }}</label>
+  </div>
 </template>
 
 
 <script setup lang="ts">
-import { useId, defineProps } from 'vue';
+import { useId, defineProps, ref } from 'vue';
 
-
-const props = defineProps( {
+const props = defineProps({
   cssVar: {
     default: '--vp-c-brand-1',
     type: String,
@@ -19,8 +17,12 @@ const props = defineProps( {
 })
 const id = useId();
 
- const bgColorChange = (event: Event ) => {
-   const target = event.currentTarget as HTMLInputElement;
-document.documentElement.style.setProperty(props.cssVar, target.value);
+
+const value = ref("#e66465" )
+
+const handleValue = (event: Event) => {
+  const target = event.currentTarget as HTMLInputElement;
+  value.value = target.value
+  document.documentElement.style.setProperty(props.cssVar, target.value);
 }
 </script>
