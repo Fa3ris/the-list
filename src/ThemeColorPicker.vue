@@ -13,16 +13,24 @@ const props = defineProps({
   cssVar: {
     default: '--vp-c-brand-1',
     type: String,
+  },
+  value: {
+    type: String,
+    required: true
   }
 })
+
+const emit = defineEmits<{
+  change: [name: string, value: string ]
+}>()
 const id = useId();
 
 
-const value = ref("#e66465" )
+const value = ref(props.value)
 
 const handleValue = (event: Event) => {
   const target = event.currentTarget as HTMLInputElement;
   value.value = target.value
-  document.documentElement.style.setProperty(props.cssVar, target.value);
+  emit('change', props.cssVar, target.value)
 }
 </script>

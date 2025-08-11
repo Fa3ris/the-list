@@ -27,6 +27,12 @@ visual novel
 
 rpg
 
+
+roguelike
+
+
+visual novel
+
 languages
 
     - C
@@ -34,3 +40,9 @@ languages
     - Rust
     - Go
     - Zig
+    
+
+https://effect.website/docs
+
+I pay 
+https://www.greatfrontend.com/
