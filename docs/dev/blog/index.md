@@ -16,3 +16,12 @@ https://michel.codes/blogs/ui-as-an-afterthought
 
 
 https://macwright.com/
+
+
+https://www.rob.directory/
+
+
+https://github.com/orta
+
+
+https://www.zhenghao.io/posts
