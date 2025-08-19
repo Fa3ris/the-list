@@ -5,6 +5,7 @@ emoji: ✅
 
 <script setup>
 import Blur from '@components/Blur.vue'
+import BlurryImage from '@components/BlurryImage.vue'
 </script>
 
 # {{ $frontmatter.title }}
@@ -15,3 +16,5 @@ import Blur from '@components/Blur.vue'
 Naruto is the son of the 4th Hokage.
 </Blur>
 
+
+<BlurryImage srcUrl="./assets/naruto-579.jpg" alt="naruto cover" />
