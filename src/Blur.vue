@@ -1,11 +1,11 @@
 <template>
     <p :class="$style['flex']">
-    SPOILER
-    <div :data-tooltip="blur ? 'Click to reveal' : undefined">
-        <div :class="{ [$style['blur-container']]: blur }" @click="blur = false">
-            <slot />
-        </div>
-    </div>
+        SPOILER
+        <span :data-tooltip="blur ? 'Click to reveal' : undefined">
+            <span :class="{ [$style['blur-container']]: blur }" @click="blur = false">
+                <slot />
+            </span>
+        </span>
     </p>
 </template>
 
