@@ -18,17 +18,23 @@ hero:
       text: Game
       link: /game
     - theme: brand
+      text: Japanese
+      link: /japanese
+    - theme: alt
       text: Manga
       link: /manga
-    - theme: alt
+    - theme: brand
       text: Movie
       link: /movie
-    - theme: brand
+    - theme: alt
       text: Music
       link: /music
-    - theme: alt
+    - theme: brand
       text: Series
       link: /series
+    - theme: alt
+      text: Travel
+      link: /travel
 features:
   - title: 'Been there, done that'
     details: Stuff I particularly enjoyed

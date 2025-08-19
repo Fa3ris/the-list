@@ -23,6 +23,10 @@ export default [
     "link": "/game"
   },
   {
+    "text": "Japanese",
+    "link": "/japanese"
+  },
+  {
     "text": "Manga",
     "link": "/manga"
   },
@@ -37,6 +41,10 @@ export default [
   {
     "text": "Series",
     "link": "/series"
+  },
+  {
+    "text": "Travel",
+    "link": "/travel"
   }
 ],
   },

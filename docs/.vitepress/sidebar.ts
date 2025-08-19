@@ -64,6 +64,46 @@ export default {
           "link": "/index"
         },
         {
+          "base": "/dev/algo",
+          "text": "Algo",
+          "items": [
+            {
+              "text": "Index",
+              "link": "/index"
+            }
+          ]
+        },
+        {
+          "base": "/dev/blog",
+          "text": "Blog",
+          "items": [
+            {
+              "text": "Index",
+              "link": "/index"
+            }
+          ]
+        },
+        {
+          "base": "/dev/lang",
+          "text": "Lang",
+          "items": [
+            {
+              "text": "Typescript",
+              "link": "/typescript"
+            }
+          ]
+        },
+        {
+          "base": "/dev/tools",
+          "text": "Tools",
+          "items": [
+            {
+              "text": "Index",
+              "link": "/index"
+            }
+          ]
+        },
+        {
           "text": "🚧 Breakout",
           "link": "/breakout"
         },
@@ -118,6 +158,18 @@ export default {
         {
           "text": "✅⭐️ The Last of Us",
           "link": "/tlou"
+        }
+      ]
+    }
+  ],
+  "/japanese": [
+    {
+      "base": "/japanese",
+      "text": "Japanese",
+      "items": [
+        {
+          "text": "Index",
+          "link": "/index"
         }
       ]
     }
@@ -206,6 +258,18 @@ export default {
         {
           "text": "Suits",
           "link": "/suits"
+        }
+      ]
+    }
+  ],
+  "/travel": [
+    {
+      "base": "/travel",
+      "text": "Travel",
+      "items": [
+        {
+          "text": "Index",
+          "link": "/index"
         }
       ]
     }

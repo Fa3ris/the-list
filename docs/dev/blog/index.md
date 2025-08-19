@@ -1,6 +1,4 @@
 
-
-
 https://r2p.dev/b/2024-03-18-1brc-go/
 
 
@@ -25,3 +23,6 @@ https://github.com/orta
 
 
 https://www.zhenghao.io/posts
+
+
+https://cekrem.github.io/posts/books-i-think-software-engineers-should-read/
