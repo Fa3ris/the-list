@@ -5,6 +5,8 @@ import Card from '@components/Card.vue'
 
 import { withBase, } from 'vitepress'
 
+import {data} from '@vp/data-loader/manga.data.ts'
+
 </script>
 
 <style module>
@@ -35,77 +37,21 @@ import { withBase, } from 'vitepress'
 # Manga
 
 <section :class="$style.grid">
-<a href="./naruto" :class="$style.cardLink">
-<Card 
-  title="Naruto"
-  excerpt="Epic ninja adventure manga"
->
-  <template #image>
-    <BlurryImage :srcUrl="withBase('/manga/assets/naruto-579.jpg')" alt="Naruto cover" />
-  </template>
-</Card>
-</a>
 
-<a href="./naruto" :class="$style.cardLink">
+<template v-for="entry in data">
+
+<a :href="entry.path" :class="$style.cardLink">
 <Card 
-  title="Naruto"
-  excerpt="Epic ninja adventure manga"
+  :title="entry.title"
+  :excerpt="entry.excerpt"
 >
-  <template #image>
-    <BlurryImage :srcUrl="withBase('/manga/assets/naruto-579.jpg')" alt="Naruto cover" />
+  <template #image v-if="entry.imgURL">
+    <BlurryImage :srcUrl="withBase(entry.imgURL)" :alt="entry.imgURL" />
   </template>
 </Card>
 </a>
-<a href="./naruto" :class="$style.cardLink">
-<Card 
-  title="Naruto"
-  excerpt="Epic ninja adventure manga"
->
-  <template #image>
-    <BlurryImage :srcUrl="withBase('/manga/assets/naruto-579.jpg')" alt="Naruto cover" />
-  </template>
-</Card>
-</a>
-<a href="./naruto" :class="$style.cardLink">
-<Card 
-  title="Naruto"
-  excerpt="Epic ninja adventure manga"
->
-  <template #image>
-    <BlurryImage :srcUrl="withBase('/manga/assets/naruto-579.jpg')" alt="Naruto cover" />
-  </template>
-</Card>
-</a>
-<a href="./naruto" :class="$style.cardLink">
-<Card 
-  title="Naruto"
-  excerpt="Epic ninja adventure manga"
->
-  <template #image>
-    <BlurryImage :srcUrl="withBase('/manga/assets/naruto-579.jpg')" alt="Naruto cover" />
-  </template>
-</Card>
-</a>
-<a href="./naruto" :class="$style.cardLink">
-<Card 
-  title="Naruto"
-  excerpt="Epic ninja adventure manga"
->
-  <template #image>
-    <BlurryImage :srcUrl="withBase('/manga/assets/naruto-579.jpg')" alt="Naruto cover" />
-  </template>
-</Card>
-</a>
-<a href="./naruto" :class="$style.cardLink">
-<Card 
-  title="Naruto"
-  excerpt="Epic ninja adventure manga"
->
-  <template #image>
-    <BlurryImage :srcUrl="withBase('/manga/assets/naruto-579.jpg')" alt="Naruto cover" />
-  </template>
-</Card>
-</a>
+</template>
+
 </section>
 
 Get Backers

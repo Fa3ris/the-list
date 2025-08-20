@@ -7,7 +7,7 @@
 
 
 <script setup lang="ts">
-import { useId, defineProps, ref } from 'vue';
+import { useId, ref } from 'vue';
 
 const props = defineProps({
   cssVar: {
