@@ -184,6 +184,10 @@ export default {
           "link": "/index"
         },
         {
+          "text": "✅ Get Backers",
+          "link": "/get-backers"
+        },
+        {
           "text": "✅ Naruto",
           "link": "/naruto"
         },
@@ -266,6 +270,18 @@ export default {
     {
       "base": "/travel",
       "text": "Travel",
+      "items": [
+        {
+          "text": "Index",
+          "link": "/index"
+        }
+      ]
+    }
+  ],
+  "/webtoon": [
+    {
+      "base": "/webtoon",
+      "text": "Webtoon",
       "items": [
         {
           "text": "Index",

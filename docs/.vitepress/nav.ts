@@ -45,6 +45,10 @@ export default [
   {
     "text": "Travel",
     "link": "/travel"
+  },
+  {
+    "text": "Webtoon",
+    "link": "/webtoon"
   }
 ],
   },

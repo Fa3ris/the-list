@@ -10,21 +10,24 @@ tags:
     - big3
 ---
 
-<script setup>
+<script setup lang="ts">
 import Blur from '@components/Blur.vue'
 import BlurryImage from '@components/BlurryImage.vue'
+import { useData } from 'vitepress'
+
+const {frontmatter} = useData();
 </script>
 
 
 <!-- magic comment to set LTeX settings -->
 <!-- LTeX: enabled=false -->
-# {{ $frontmatter.title }}
+# {{ frontmatter.title }}
 
 
 ![Naruto is GOAT](https://img.shields.io/badge/Rank-GOAT-blue)
 
 <!-- Citation -->
-> {{ $frontmatter.excerpt }}
+> {{ frontmatter.excerpt }}
 <!-- LTeX: enabled=true -->
 
 <Blur>
@@ -34,4 +37,4 @@ Itachi is a good guy.
 </Blur>
 
 
-<BlurryImage :srcUrl="$frontmatter.imgURL" :alt="$frontmatter.imgAlt" />
+<BlurryImage :srcUrl="frontmatter.imgURL" :alt="frontmatter.imgAlt" />

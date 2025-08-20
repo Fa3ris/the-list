@@ -11,9 +11,6 @@ import {data} from '@vp/data-loader/manga.data.ts'
 
 <EntriesGrid :data="data" />
 
-Get Backers
-Naruto
-One piece
 Bleach
 Dragon ball
 Hunter x Hunter

@@ -42,7 +42,7 @@ export type Nav = { [entry: string]: Nav | Filename };
 function walkDir(
   rootDir: string,
   options = {
-    dirsToIgnore: [/\.vitepress/, /public/],
+    dirsToIgnore: [/\.vitepress/, /public/, /assets/],
     fileExtensionsToInclude: [/md/],
   }
 ) {

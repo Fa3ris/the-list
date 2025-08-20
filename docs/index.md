@@ -35,6 +35,9 @@ hero:
     - theme: alt
       text: Travel
       link: /travel
+    - theme: brand
+      text: Webtoon
+      link: /webtoon
 features:
   - title: 'Been there, done that'
     details: Stuff I particularly enjoyed
