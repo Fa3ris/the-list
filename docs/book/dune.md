@@ -1,0 +1,6 @@
+---
+title: Dune
+---
+
+# {{ $frontmatter.title }}
+

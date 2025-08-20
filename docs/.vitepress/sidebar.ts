@@ -376,12 +376,100 @@ export default {
           "link": "/index"
         },
         {
+          "text": "1984",
+          "link": "/1984"
+        },
+        {
           "text": "A Man called Ove",
           "link": "/a-man-called-ove"
         },
         {
+          "text": "Avant toi",
+          "link": "/avant-toi"
+        },
+        {
+          "text": "Dans la toile du temps",
+          "link": "/dans-la-toile-du-temps"
+        },
+        {
+          "text": "De bons présages",
+          "link": "/de-bons-prsages"
+        },
+        {
+          "text": "Déracinée",
+          "link": "/dracine"
+        },
+        {
+          "text": "Dune",
+          "link": "/dune"
+        },
+        {
+          "text": "Eragon - the Heritage saga",
+          "link": "/eragon-the-heritage-saga"
+        },
+        {
+          "text": "Ewylan",
+          "link": "/ewylan"
+        },
+        {
+          "text": "Gagner la guerre",
+          "link": "/gagner-la-guerre"
+        },
+        {
+          "text": "Harry Potter",
+          "link": "/harry-potter"
+        },
+        {
+          "text": "Hunger games",
+          "link": "/hunger-games"
+        },
+        {
+          "text": "La ligne verte",
+          "link": "/la-ligne-verte"
+        },
+        {
+          "text": "La passeuse de mots",
+          "link": "/la-passeuse-de-mots"
+        },
+        {
+          "text": "La première loi",
+          "link": "/la-premire-loi"
+        },
+        {
+          "text": "La route des lucioles",
+          "link": "/la-route-des-lucioles"
+        },
+        {
+          "text": "La vie selon Ove",
+          "link": "/la-vie-selon-ove"
+        },
+        {
+          "text": "La voix du sang",
+          "link": "/la-voix-du-sang"
+        },
+        {
+          "text": "Le couple d'à côté",
+          "link": "/le-couple-d-ct"
+        },
+        {
+          "text": "Le nom du vent",
+          "link": "/le-nom-du-vent"
+        },
+        {
+          "text": "Les maîtres enlumineurs",
+          "link": "/les-matres-enlumineurs"
+        },
+        {
+          "text": "Les puissants",
+          "link": "/les-puissants"
+        },
+        {
           "text": "Fils des brumes",
           "link": "/mistborn"
+        },
+        {
+          "text": "Nos étoiles contraires",
+          "link": "/nos-toiles-contraires"
         },
         {
           "text": "✅⭐️ Nos Etoiles Contraires",
@@ -468,20 +556,140 @@ export default {
           "link": "/index"
         },
         {
+          "text": "Ace attorney",
+          "link": "/ace-attorney"
+        },
+        {
+          "text": "Bastion",
+          "link": "/bastion"
+        },
+        {
+          "text": "Call of Duty Black Ops",
+          "link": "/call-of-duty-black-ops"
+        },
+        {
+          "text": "DBZ Budokai tenkaichi",
+          "link": "/dbz-budokai-tenkaichi"
+        },
+        {
+          "text": "DBZ Budokai",
+          "link": "/dbz-budokai"
+        },
+        {
+          "text": "Dead cells",
+          "link": "/dead-cells"
+        },
+        {
+          "text": "Deux ex",
+          "link": "/deux-ex"
+        },
+        {
+          "text": "Dishonored",
+          "link": "/dishonored"
+        },
+        {
+          "text": "Dragon quest",
+          "link": "/dragon-quest"
+        },
+        {
+          "text": "Fire emblem Awakening",
+          "link": "/fire-emblem-awakening"
+        },
+        {
+          "text": "Fire emblem echoes",
+          "link": "/fire-emblem-echoes"
+        },
+        {
+          "text": "God of war",
+          "link": "/god-of-war"
+        },
+        {
+          "text": "Hades",
+          "link": "/hades"
+        },
+        {
           "text": "✅⭐️ Kingdom Hearts",
           "link": "/kingdom-hearts"
+        },
+        {
+          "text": "Kingdom Rush - tower defense",
+          "link": "/kingdom-rush-tower-defense"
+        },
+        {
+          "text": "Naruto ultimate ninja",
+          "link": "/naruto-ultimate-ninja"
+        },
+        {
+          "text": "Persona 5",
+          "link": "/persona-5"
+        },
+        {
+          "text": "Pirate Outlaws",
+          "link": "/pirate-outlaws"
+        },
+        {
+          "text": "Pokemon donjon mystère",
+          "link": "/pokemon-donjon-mystre"
         },
         {
           "text": "✅⭐️ Pokemon Argent",
           "link": "/pokemon-silver"
         },
         {
+          "text": "Pokemon",
+          "link": "/pokemon"
+        },
+        {
+          "text": "Radiant historia",
+          "link": "/radiant-historia"
+        },
+        {
+          "text": "Ratchet & Clank 3",
+          "link": "/ratchet-clank-3"
+        },
+        {
+          "text": "Ratchet Gladiator",
+          "link": "/ratchet-gladiator"
+        },
+        {
           "text": "Sekiro",
           "link": "/sekiro"
         },
         {
+          "text": "Spider man",
+          "link": "/spider-man"
+        },
+        {
+          "text": "Tactics ogre",
+          "link": "/tactics-ogre"
+        },
+        {
+          "text": "The last of us",
+          "link": "/the-last-of-us"
+        },
+        {
+          "text": "The witcher 3",
+          "link": "/the-witcher-3"
+        },
+        {
           "text": "✅⭐️ The Last of Us",
           "link": "/tlou"
+        },
+        {
+          "text": "yu-gi-oh game boy",
+          "link": "/yu-gi-oh-game-boy"
+        },
+        {
+          "text": "Zelda minish cap",
+          "link": "/zelda-minish-cap"
+        },
+        {
+          "text": "Zelda phantom hourglass",
+          "link": "/zelda-phantom-hourglass"
+        },
+        {
+          "text": "Zelda spirit tracks",
+          "link": "/zelda-spirit-tracks"
         }
       ]
     }
@@ -538,6 +746,10 @@ export default {
         {
           "text": "Harry Potter",
           "link": "/harry-potter"
+        },
+        {
+          "text": "Scott pilgrim - why this first",
+          "link": "/scott-pilgrim-why-this-first"
         }
       ]
     }
@@ -580,12 +792,24 @@ export default {
           "link": "/friends"
         },
         {
+          "text": "Gilmore girls",
+          "link": "/gilmore-girls"
+        },
+        {
           "text": "How I met your Mother",
           "link": "/himym"
         },
         {
           "text": "Suits",
           "link": "/suits"
+        },
+        {
+          "text": "The Big Bang Theory",
+          "link": "/the-big-bang-theory"
+        },
+        {
+          "text": "Vampire diaries",
+          "link": "/vampire-diaries"
         }
       ]
     }
