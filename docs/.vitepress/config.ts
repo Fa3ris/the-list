@@ -29,7 +29,7 @@ export default defineConfig({
     aside: false,
     socialLinks: [{ icon: "github", link: "https://github.com/Fa3ris" }],
   },
-  head: [["link", { rel: "icon", href: `${base}/checklist.png` }]],
+  head: [["link", { rel: "icon", href: `${base}/checklist.png`, type:"image/png" }]],
   vite: {
     resolve: {
       alias: {
