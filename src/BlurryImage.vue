@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import Blur from '@components/Blur.vue'
 import { ref } from 'vue'
 
