@@ -18,16 +18,16 @@ defineProps({
 </script>
 
 <style module>
-    section.grid {
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 4px;
-        row-gap: 4px;
-    }
+section.grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 4px;
+    row-gap: 4px;
+}
 
-/* override default them style with stronger selector */
-    .cardLink.cardLink {
+/* override default theme style with stronger selector */
+.cardLink.cardLink {
     text-decoration: none;
     color: inherit;
 }
@@ -43,21 +43,15 @@ defineProps({
 </style>
 
 <template>
-<section :class="$style.grid">
-
-<template v-for="entry in data">
-
-<a :href="entry.path" :class="$style.cardLink">
-<Card 
-  :title="entry.title"
-  :excerpt="entry.excerpt"
->
-  <template #image v-if="entry.imgURL">
-    <BlurryImage :srcUrl="withBase(entry.imgURL)" :alt="entry.imgURL" />
-  </template>
-</Card>
-</a>
-</template>
-
-</section>
+    <section :class="$style.grid">
+        <template v-for="entry in data">
+            <a :href="entry.path" :class="$style.cardLink">
+                <Card :title="entry.title" :excerpt="entry.excerpt" :emoji="entry.emoji" :tags="entry.tags">
+                    <template #image v-if="entry.imgURL">
+                        <BlurryImage :srcUrl="withBase(entry.imgURL)" :alt="entry.imgAlt" />
+                    </template>
+                </Card>
+            </a>
+        </template>
+    </section>
 </template>

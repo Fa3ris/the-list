@@ -8,6 +8,7 @@ export type YamlMetadata = Partial<{
     emoji: string;
     excerpt: string;
     imgURL: string;
+    imgAlt: string;
     tags: string[];
 }> & { path: string }
 

@@ -2,7 +2,8 @@
 title: Naruto
 emoji: ✅
 excerpt: We never see him becoming Hokage
-imgURL: /manga/assets/naruto-579.jpg
+imgURL: assets/naruto-579.jpg
+imgAlt: Naruto cover
 tags: 
     - ninja
     - shonen 
@@ -18,13 +19,19 @@ import BlurryImage from '@components/BlurryImage.vue'
 <!-- magic comment to set LTeX settings -->
 <!-- LTeX: enabled=false -->
 # {{ $frontmatter.title }}
-<!-- LTeX: enabled=true -->
 
-![Static Badge](https://img.shields.io/badge/Rank-GOAT-blue)
+
+![Naruto is GOAT](https://img.shields.io/badge/Rank-GOAT-blue)
+
+<!-- Citation -->
+> {{ $frontmatter.excerpt }}
+<!-- LTeX: enabled=true -->
 
 <Blur>
 Naruto is the son of the 4th Hokage.
+Tobi is Obito.
+Itachi is a good guy.
 </Blur>
 
 
-<BlurryImage srcUrl="./assets/naruto-579.jpg" alt="naruto cover" />
+<BlurryImage :srcUrl="$frontmatter.imgURL" :alt="$frontmatter.imgAlt" />

@@ -3,22 +3,26 @@
     <!-- Image Section -->
     <div :class="$style.imageSection" v-if="imageUrl || $slots.image">
       <slot name="image">
-        <img 
-          v-if="imageUrl" 
-          :src="imageUrl" 
-          :alt="imageAlt || title || 'Card image'"
-          :class="$style.image"
-        />
+        <img v-if="imageUrl" :src="imageUrl" :alt="imageAlt || title || 'Card image'" :class="$style.image" />
       </slot>
     </div>
 
     <!-- Content Section -->
     <div :class="$style.content">
-      <!-- Title Section -->
-      <div :class="$style.titleSection" v-if="title || $slots.title">
-        <slot name="title">
-          <h3 :class="$style.title">{{ title }}</h3>
-        </slot>
+      <div :class="$style.headerSection">
+        <!-- Title Section -->
+        <div :class="$style.titleSection" v-if="title || $slots.title">
+          <slot name="title">
+            <h3 :class="$style.title">{{ title }}</h3>
+          </slot>
+        </div>
+
+        <!-- Emoji Section -->
+        <div :class="$style.emojiSection" v-if="emoji || $slots.emoji">
+          <slot name="emoji">
+            <span :class="$style.emoji">{{ emoji }}</span>
+          </slot>
+        </div>
       </div>
 
       <!-- Excerpt Section -->
@@ -27,11 +31,19 @@
           <p :class="$style.excerpt">{{ excerpt }}</p>
         </slot>
       </div>
+
+      <div :class="$style.tagsSection" v-if="tags || $slots.tags">
+        <slot name="tags">
+          <span v-for="tag in tags" :class="$style.tag">#{{ tag }}</span>
+        </slot>
+      </div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
+import type { PropType } from 'vue';
+
 defineProps({
   imageUrl: {
     type: String,
@@ -48,6 +60,12 @@ defineProps({
   excerpt: {
     type: String,
     default: ''
+  },
+  tags: {
+    type: Array as PropType<string[]>
+  },
+  emoji: {
+    type: String
   }
 })
 </script>
@@ -85,6 +103,12 @@ defineProps({
   padding: 1rem;
 }
 
+.headerSection {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
 .titleSection {
   margin-bottom: 0.75rem;
 }
@@ -106,6 +130,11 @@ defineProps({
   /* color: #6b7280; */
   line-height: 1.5;
   font-size: 0.875rem;
+}
+
+.tagsSection {
+  display: flex;
+  column-gap: 4px;
 }
 
 /* Dark mode support */
