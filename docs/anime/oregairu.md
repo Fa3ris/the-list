@@ -1,0 +1,6 @@
+---
+title: Oregairu !!!!
+---
+
+# {{ $frontmatter.title }}
+

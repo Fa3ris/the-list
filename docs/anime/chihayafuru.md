@@ -1,0 +1,6 @@
+---
+title: Chihayafuru
+---
+
+# {{ $frontmatter.title }}
+

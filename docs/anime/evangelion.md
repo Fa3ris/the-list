@@ -1,0 +1,6 @@
+---
+title: Evangelion
+---
+
+# {{ $frontmatter.title }}
+

@@ -1,0 +1,6 @@
+---
+title: Wakfu
+---
+
+# {{ $frontmatter.title }}
+

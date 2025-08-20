@@ -12,20 +12,356 @@ export default {
           "link": "/index"
         },
         {
+          "text": "5 centimeters per second",
+          "link": "/5-centimeters-per-second"
+        },
+        {
+          "text": "A silent voice",
+          "link": "/a-silent-voice"
+        },
+        {
+          "text": "Angel beats",
+          "link": "/angel-beats"
+        },
+        {
+          "text": "Anohana",
+          "link": "/anohana"
+        },
+        {
+          "text": "Attack on Titan",
+          "link": "/attack-on-titan"
+        },
+        {
+          "text": "Avatar the last airbender",
+          "link": "/avatar-the-last-airbender"
+        },
+        {
+          "text": "bakuman",
+          "link": "/bakuman"
+        },
+        {
+          "text": "Black butler",
+          "link": "/black-butler"
+        },
+        {
           "text": "Bleach",
           "link": "/bleach"
+        },
+        {
+          "text": "bunny girl senpai",
+          "link": "/bunny-girl-senpai"
+        },
+        {
+          "text": "Chihayafuru",
+          "link": "/chihayafuru"
+        },
+        {
+          "text": "Chunibyo",
+          "link": "/chunibyo"
+        },
+        {
+          "text": "Clannad",
+          "link": "/clannad"
+        },
+        {
+          "text": "Code geass",
+          "link": "/code-geass"
+        },
+        {
+          "text": "Darling in the Franxx",
+          "link": "/darling-in-the-franxx"
+        },
+        {
+          "text": "Death note",
+          "link": "/death-note"
+        },
+        {
+          "text": "Death parade",
+          "link": "/death-parade"
+        },
+        {
+          "text": "Detective Conan",
+          "link": "/detective-conan"
+        },
+        {
+          "text": "Devilman crybaby",
+          "link": "/devilman-crybaby"
+        },
+        {
+          "text": "Digimon",
+          "link": "/digimon"
+        },
+        {
+          "text": "Evangelion",
+          "link": "/evangelion"
+        },
+        {
+          "text": "Fate apocrypha",
+          "link": "/fate-apocrypha"
+        },
+        {
+          "text": "Fate Heavens'Feel route",
+          "link": "/fate-heavensfeel-route"
+        },
+        {
+          "text": "Fate UBW",
+          "link": "/fate-ubw"
+        },
+        {
+          "text": "Flavours of Youth",
+          "link": "/flavours-of-youth"
+        },
+        {
+          "text": "Fullmetal Alchemist (not brotherhood)",
+          "link": "/fullmetal-alchemist-not-brotherhood"
+        },
+        {
+          "text": "gekkan shoujo Nozaki kun",
+          "link": "/gekkan-shoujo-nozaki-kun"
         },
         {
           "text": "Get Backers",
           "link": "/get-backers"
         },
         {
+          "text": "Golden kamui",
+          "link": "/golden-kamui"
+        },
+        {
+          "text": "Haikyuu",
+          "link": "/haikyuu"
+        },
+        {
+          "text": "Haruhi Suzumiya",
+          "link": "/haruhi-suzumiya"
+        },
+        {
+          "text": "Higehiro",
+          "link": "/higehiro"
+        },
+        {
+          "text": "hotarubi no mori e ???",
+          "link": "/hotarubi-no-mori-e"
+        },
+        {
+          "text": "Hunter x Hunter",
+          "link": "/hunter-x-hunter"
+        },
+        {
+          "text": "JoJo",
+          "link": "/jojo"
+        },
+        {
+          "text": "Kimetsu no yaiba",
+          "link": "/kimetsu-no-yaiba"
+        },
+        {
+          "text": "kokoro connect",
+          "link": "/kokoro-connect"
+        },
+        {
+          "text": "Konosuba",
+          "link": "/konosuba"
+        },
+        {
+          "text": "Korra",
+          "link": "/korra"
+        },
+        {
+          "text": "Kuroko no basket",
+          "link": "/kuroko-no-basket"
+        },
+        {
+          "text": "Kyokai no kanata",
+          "link": "/kyokai-no-kanata"
+        },
+        {
+          "text": "made in abyss",
+          "link": "/made-in-abyss"
+        },
+        {
+          "text": "masamune kun no revenge",
+          "link": "/masamune-kun-no-revenge"
+        },
+        {
+          "text": "mob psycho 100",
+          "link": "/mob-psycho-100"
+        },
+        {
+          "text": "monogatari series",
+          "link": "/monogatari-series"
+        },
+        {
+          "text": "Monster",
+          "link": "/monster"
+        },
+        {
+          "text": "my dress-up darling",
+          "link": "/my-dress-up-darling"
+        },
+        {
+          "text": "Naruto shippuden",
+          "link": "/naruto-shippuden"
+        },
+        {
           "text": "Naruto",
           "link": "/naruto"
         },
         {
+          "text": "Nijiiro days",
+          "link": "/nijiiro-days"
+        },
+        {
+          "text": "nisekoi",
+          "link": "/nisekoi"
+        },
+        {
           "text": "One Piece",
           "link": "/one-piece"
+        },
+        {
+          "text": "One week friend",
+          "link": "/one-week-friend"
+        },
+        {
+          "text": "Orange",
+          "link": "/orange"
+        },
+        {
+          "text": "ore no monogatari",
+          "link": "/ore-no-monogatari"
+        },
+        {
+          "text": "ore shura ???",
+          "link": "/ore-shura"
+        },
+        {
+          "text": "Oregairu !!!!",
+          "link": "/oregairu"
+        },
+        {
+          "text": "Ousama Ranking",
+          "link": "/ousama-ranking"
+        },
+        {
+          "text": "parasyte",
+          "link": "/parasyte"
+        },
+        {
+          "text": "plastic memories",
+          "link": "/plastic-memories"
+        },
+        {
+          "text": "Pokemon",
+          "link": "/pokemon"
+        },
+        {
+          "text": "Psycho pass",
+          "link": "/psycho-pass"
+        },
+        {
+          "text": "puella magi madoka magica",
+          "link": "/puella-magi-madoka-magica"
+        },
+        {
+          "text": "Re",
+          "link": "/rezero"
+        },
+        {
+          "text": "Run with the wind - don't remember the japanese name",
+          "link": "/run-with-the-wind-dont-remember-the-japanese-name"
+        },
+        {
+          "text": "Saenai Heroin no sodatekata",
+          "link": "/saenai-heroin-no-sodatekata"
+        },
+        {
+          "text": "Sakura no pet na kanojou",
+          "link": "/sakura-no-pet-na-kanojou"
+        },
+        {
+          "text": "Sakura",
+          "link": "/sakura"
+        },
+        {
+          "text": "Sangatsu no lion",
+          "link": "/sangatsu-no-lion"
+        },
+        {
+          "text": "sing yesterday for me",
+          "link": "/sing-yesterday-for-me"
+        },
+        {
+          "text": "Steins;Gate",
+          "link": "/steinsgate"
+        },
+        {
+          "text": "Tengen toppa Gurren Lagan",
+          "link": "/tengen-toppa-gurren-lagan"
+        },
+        {
+          "text": "terror in resonance",
+          "link": "/terror-in-resonance"
+        },
+        {
+          "text": "The dangers in my heart",
+          "link": "/the-dangers-in-my-heart"
+        },
+        {
+          "text": "the devil is a part-timer",
+          "link": "/the-devil-is-a-part-timer"
+        },
+        {
+          "text": "the Garden of Words",
+          "link": "/the-garden-of-words"
+        },
+        {
+          "text": "The placed promised in our early days",
+          "link": "/the-placed-promised-in-our-early-days"
+        },
+        {
+          "text": "tonikawa",
+          "link": "/tonikawa"
+        },
+        {
+          "text": "toradora",
+          "link": "/toradora"
+        },
+        {
+          "text": "tsuki ga kirei",
+          "link": "/tsuki-ga-kirei"
+        },
+        {
+          "text": "Vinland saga",
+          "link": "/vinland-saga"
+        },
+        {
+          "text": "Violet evergarden",
+          "link": "/violet-evergarden"
+        },
+        {
+          "text": "vivi - Fluorits Eye's song",
+          "link": "/vivi-fluorits-eyes-song"
+        },
+        {
+          "text": "Wakfu",
+          "link": "/wakfu"
+        },
+        {
+          "text": "words like a bubble",
+          "link": "/words-like-a-bubble"
+        },
+        {
+          "text": "Your lie in April",
+          "link": "/your-lie-in-april"
+        },
+        {
+          "text": "Your Name",
+          "link": "/your-name"
+        },
+        {
+          "text": "Yu gi oh",
+          "link": "/yu-gi-oh"
         }
       ]
     }
@@ -132,28 +468,16 @@ export default {
           "link": "/index"
         },
         {
-          "base": "/game/action",
-          "text": "Action",
-          "items": [
-            {
-              "text": "✅⭐️ Kingdom Hearts",
-              "link": "/kingdom-hearts"
-            },
-            {
-              "text": "Sekiro",
-              "link": "/sekiro"
-            }
-          ]
+          "text": "✅⭐️ Kingdom Hearts",
+          "link": "/kingdom-hearts"
         },
         {
-          "base": "/game/rpg",
-          "text": "Rpg",
-          "items": [
-            {
-              "text": "✅⭐️ Pokemon Argent",
-              "link": "/pokemon-silver"
-            }
-          ]
+          "text": "✅⭐️ Pokemon Argent",
+          "link": "/pokemon-silver"
+        },
+        {
+          "text": "Sekiro",
+          "link": "/sekiro"
         },
         {
           "text": "✅⭐️ The Last of Us",

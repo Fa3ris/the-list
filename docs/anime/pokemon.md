@@ -1,0 +1,6 @@
+---
+title: Pokemon
+---
+
+# {{ $frontmatter.title }}
+

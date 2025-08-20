@@ -1,0 +1,6 @@
+---
+title: Chunibyo
+---
+
+# {{ $frontmatter.title }}
+

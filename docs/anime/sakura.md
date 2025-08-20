@@ -1,0 +1,6 @@
+---
+title: Sakura
+---
+
+# {{ $frontmatter.title }}
+

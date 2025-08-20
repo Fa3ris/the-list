@@ -1,0 +1,6 @@
+---
+title: toradora
+---
+
+# {{ $frontmatter.title }}
+

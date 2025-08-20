@@ -1,0 +1,6 @@
+---
+title: Haikyuu
+---
+
+# {{ $frontmatter.title }}
+

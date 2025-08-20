@@ -1,0 +1,6 @@
+---
+title: Konosuba
+---
+
+# {{ $frontmatter.title }}
+

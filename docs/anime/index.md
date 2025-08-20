@@ -2,96 +2,11 @@
 next: false
 ---
 
+<script setup>
+import EntriesGrid from '@components/EntriesGrid.vue'
+import {data} from '@vp/data-loader/anime.data.ts'
+</script>
 
-- Naruto
-- Naruto shippuden
-- Bleach
+# Anime
 
-- Chihayafuru
-- monogatari series
-- Violet evergarden
-- Fullmetal Alchemist (not brotherhood)
-- Get Backers
-- Haikyuu
-- Kuroko no basket
-
-- One Piece
-- A silent voice
-- Clannad
-- Steins;Gate
-- Code geass
-- Attack on Titan
-- Haruhi Suzumiya
-- the Garden of Words
-- Your Name
-- Kyokai no kanata
-- Your lie in April
-- Chunibyo
-- Nijiiro days
-- Konosuba
-- Re:zero
-- Hunter x Hunter
-- Evangelion
-- Kimetsu no yaiba
-- Pokemon
-- Sakura
-- Yu gi oh
-- Black butler
-- Digimon
-- Monster
-- Vinland saga
-- JoJo
-- Psycho pass
-- mob psycho 100
-- bakuman
-- parasyte
-- Golden kamui
-- Fate UBW
-- Fate apocrypha
-- Darling in the Franxx
-- Tengen toppa Gurren Lagan
-- vivi - Fluorits Eye's song
-- ore no monogatari
-- Fate Heavens'Feel route
-- Saenai Heroin no sodatekata
-- nisekoi
-- terror in resonance
-- the devil is a part-timer
-- masamune kun no revenge
-- my dress-up darling
-- tsuki ga kirei
-- The dangers in my heart
-- sing yesterday for me
-- plastic memories
-- Orange
-- Ousama Ranking
-- Detective Conan
-- The placed promised in our early days
-- kokoro connect
-- Run with the wind - don't remember the japanese name
-- Flavours of Youth
-- Devilman crybaby
-- made in abyss
-- Sangatsu no lion
-- puella magi madoka magica
-- Death note
-- One week friend
-- Death parade
-- hotarubi no mori e ???
-- 5 centimeters per second
-- Oregairu !!!!
-- Angel beats
-- Anohana
-- ore shura ???
-- Higehiro
-- words like a bubble
-- tonikawa
-- Sakura no pet na kanojou
-- gekkan shoujo Nozaki kun
-- toradora
-- bunny girl senpai
-
-
-- Avatar the last airbender
-- Korra
-- Wakfu
+<EntriesGrid :data="data" />

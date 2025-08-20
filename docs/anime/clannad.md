@@ -1,0 +1,6 @@
+---
+title: Clannad
+---
+
+# {{ $frontmatter.title }}
+

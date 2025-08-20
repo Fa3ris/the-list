@@ -1,0 +1,6 @@
+---
+title: Monster
+---
+
+# {{ $frontmatter.title }}
+

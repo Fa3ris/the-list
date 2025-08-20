@@ -1,0 +1,6 @@
+---
+title: nisekoi
+---
+
+# {{ $frontmatter.title }}
+

@@ -5,7 +5,6 @@ import BlurryImage from '@components/BlurryImage.vue'
 
 import { withBase, } from 'vitepress'
 
-import {data} from '@vp/data-loader/manga.data.ts'
 import type {YamlMetadata} from '@vp/data-loader/directory-entries-loader'
 import type { PropType } from 'vue'
 

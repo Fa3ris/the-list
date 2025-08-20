@@ -1,0 +1,6 @@
+---
+title: Digimon
+---
+
+# {{ $frontmatter.title }}
+

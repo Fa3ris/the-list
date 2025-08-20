@@ -1,0 +1,6 @@
+---
+title: Anohana
+---
+
+# {{ $frontmatter.title }}
+
