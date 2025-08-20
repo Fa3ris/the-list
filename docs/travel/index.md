@@ -2,36 +2,29 @@
 next: false
 ---
 
-Japan
-Tokyo
-Osaka
-Kyoto
-Kobe
-Nara
-Fujikawaguchiko
+- Tokyo
+- Osaka
+- Kyoto
+- Kobe
+- Nara
+- Fujikawaguchiko
 
+- Blacksburg
+- Miami
+- Mew York
+- Los Angeles
 
-Blacksburg
-Miami
-Mew York
-Los Angeles
+- Barcelona
+- Berlin
+- Bruxelles
+- Geneve
+- Rome
 
-Barcelona
-
-Berlin
-
-Bruxelles
-
-Geneve
-
-
-Chambord
-Rome
-Tarbes
-Toulouse
-Annecy
-La Rochelle
-Saint Malo
-Bordeaux
-Fécamp
-
+- Chambord
+- Tarbes
+- Toulouse
+- Annecy
+- La Rochelle
+- Saint Malo
+- Bordeaux
+- Fécamp

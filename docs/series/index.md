@@ -3,9 +3,6 @@ next: false
 ---
 
 
-Friends
-How I met your mother
-The Big bang theory
-Vampire diaries
-Suits
-Gilmore girls
+- The Big Bang Theory
+- Vampire diaries
+- Gilmore girls

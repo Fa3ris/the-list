@@ -1,3 +1,6 @@
+---
+aside: true
+---
 # GitHub Pages Deployment Guide
 
 This project is configured to automatically deploy to GitHub Pages whenever changes are merged to the `master` branch.
