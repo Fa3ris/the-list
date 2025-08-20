@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import Blur from '@components/Blur.vue'
 import { ref } from 'vue'
 
 const isBlurred = ref(true)
@@ -10,12 +9,14 @@ const handleHover = () => {
 
 defineProps({
   srcUrl: String,
-  alt: String 
+  alt: String,
+  width: Number,
+  height: Number
 })
 </script>
 
 <template>
-    <img :src="srcUrl" :alt="alt"
+    <img :src="srcUrl" :alt="alt" :width="width" :height="height"
         :class="{ [$style['blurrable']]: true, [$style['blurry']]: isBlurred }" @mouseenter="handleHover" />
 </template>
 

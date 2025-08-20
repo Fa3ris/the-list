@@ -2,7 +2,7 @@
 title: Naruto
 emoji: ✅
 excerpt: We never see him becoming Hokage
-imgURL: assets/naruto-579.jpg
+imgURL: assets/naruto-tome-42.jpg
 imgAlt: Naruto cover
 tags: 
     - ninja
