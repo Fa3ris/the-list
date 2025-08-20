@@ -1,0 +1,6 @@
+---
+title: Nara
+---
+
+# {{ $frontmatter.title }}
+

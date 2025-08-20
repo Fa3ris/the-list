@@ -1,0 +1,6 @@
+---
+title: Miami
+---
+
+# {{ $frontmatter.title }}
+

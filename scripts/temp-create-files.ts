@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-const validCategories = ['anime', 'book', 'game', 'manga', 'movie', 'series', 'webtoon']
+const validCategories = ['anime', 'book', 'game', 'manga', 'movie', 'series', 'travel', 'webtoon']
 
 const category = process.argv[2] || 'anime'
 console.log(category)

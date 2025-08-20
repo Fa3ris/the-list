@@ -1,0 +1,6 @@
+---
+title: Bordeaux
+---
+
+# {{ $frontmatter.title }}
+

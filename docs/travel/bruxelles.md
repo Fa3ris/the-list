@@ -1,0 +1,6 @@
+---
+title: Bruxelles
+---
+
+# {{ $frontmatter.title }}
+

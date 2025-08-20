@@ -822,6 +822,98 @@ export default {
         {
           "text": "Index",
           "link": "/index"
+        },
+        {
+          "text": "Annecy",
+          "link": "/annecy"
+        },
+        {
+          "text": "Barcelona",
+          "link": "/barcelona"
+        },
+        {
+          "text": "Berlin",
+          "link": "/berlin"
+        },
+        {
+          "text": "Blacksburg",
+          "link": "/blacksburg"
+        },
+        {
+          "text": "Bordeaux",
+          "link": "/bordeaux"
+        },
+        {
+          "text": "Bruxelles",
+          "link": "/bruxelles"
+        },
+        {
+          "text": "Chambord",
+          "link": "/chambord"
+        },
+        {
+          "text": "Fécamp",
+          "link": "/fecamp"
+        },
+        {
+          "text": "Fujikawaguchiko",
+          "link": "/fujikawaguchiko"
+        },
+        {
+          "text": "Geneve",
+          "link": "/geneve"
+        },
+        {
+          "text": "Kobe",
+          "link": "/kobe"
+        },
+        {
+          "text": "Kyoto",
+          "link": "/kyoto"
+        },
+        {
+          "text": "La Rochelle",
+          "link": "/la-rochelle"
+        },
+        {
+          "text": "Los Angeles",
+          "link": "/los-angeles"
+        },
+        {
+          "text": "Miami",
+          "link": "/miami"
+        },
+        {
+          "text": "Nara",
+          "link": "/nara"
+        },
+        {
+          "text": "New York",
+          "link": "/new-york"
+        },
+        {
+          "text": "Osaka",
+          "link": "/osaka"
+        },
+        {
+          "text": "Rome",
+          "link": "/rome"
+        },
+        {
+          "text": "Saint Malo",
+          "link": "/saint-malo"
+        },
+        {
+          "text": "Tarbes",
+          "link": "/tarbes"
+        },
+        {
+          "text": "Tokyo",
+          "link": "/tokyo"
+        },
+        {
+          "text": "Toulouse",
+          "link": "/toulouse"
         }
       ]
     }

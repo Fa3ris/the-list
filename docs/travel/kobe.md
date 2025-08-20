@@ -1,0 +1,6 @@
+---
+title: Kobe
+---
+
+# {{ $frontmatter.title }}
+

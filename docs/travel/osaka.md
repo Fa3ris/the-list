@@ -1,0 +1,6 @@
+---
+title: Osaka
+---
+
+# {{ $frontmatter.title }}
+

@@ -1,0 +1,6 @@
+---
+title: Tokyo
+---
+
+# {{ $frontmatter.title }}
+
