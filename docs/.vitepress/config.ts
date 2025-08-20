@@ -26,6 +26,7 @@ export default defineConfig({
       provider: "local", // local site indexing with minisearch + search bar
     },
     sidebar,
+    aside: false,
     socialLinks: [{ icon: "github", link: "https://github.com/Fa3ris" }],
   },
   head: [["link", { rel: "icon", href: `${base}/checklist.png` }]],

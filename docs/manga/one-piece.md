@@ -19,4 +19,4 @@ const {frontmatter} = useData();
 # {{ frontmatter.title }}
 <!-- LTeX: enabled=true -->
 
-<BlurryImage :srcUrl="frontmatter.imgURL" :alt="frontmatter.imgAlt" :width="250" :height="450" />
+<BlurryImage :srcUrl="frontmatter.imgURL" :alt="frontmatter.imgAlt" />
