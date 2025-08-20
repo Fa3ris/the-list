@@ -20,7 +20,7 @@ return defineLoader({
         return watchedFiles.map(filePath => {
             const parsed = matter.read(filePath,)
             const resolvedPath = path.relative(`${process.cwd()}/docs/${directory}`, `${process.cwd()}/${filePath}`);
-            const yaml: YamlMetadata = { ...parsed.data, path: resolvedPath.replace(/\.md$/, '') }
+            const yaml: YamlMetadata = { ...parsed.data, path: resolvedPath.replace(/\.md$/, ''), imgURL: (parsed.data.imgURL && `/${directory}/${parsed.data.imgURL}`) || undefined }
             return yaml
         });
     }
