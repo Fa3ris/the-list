@@ -1,3 +1,6 @@
+---
+next: false
+---
 OS https://operating-system-in-1000-lines.vercel.app/en/
 
 interpreter https://craftinginterpreters.com/

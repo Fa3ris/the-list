@@ -1,3 +1,6 @@
+---
+next: false
+---
 
 https://r2p.dev/b/2024-03-18-1brc-go/
 

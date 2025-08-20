@@ -1,3 +1,6 @@
+---
+next: false
+---
 
 Japan
 Tokyo

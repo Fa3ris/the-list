@@ -1,5 +1,4 @@
 ---
-# hide the next navigation link
 next: false
 ---
 

@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsx scripts/generate-site.ts",
+    "quick-fix": "tsx scripts/quick-fix.ts",
     "preview": "vite preview",
     "snapshot": "tsx scripts/snapshot.ts",
     "docs:dev": "vitepress dev docs",

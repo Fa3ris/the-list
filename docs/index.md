@@ -42,6 +42,7 @@ features:
     details: Stuff that I would like/need to make time to do
   - title: Mix of French and English
     details: Depends on the mood
+next: false
 ---
 
 
