@@ -1,3 +1,8 @@
+---
+# hide the next navigation link
+next: false
+---
+
 <script setup>
 import Blur from '@components/Blur.vue'
 import BlurryImage from '@components/BlurryImage.vue'
