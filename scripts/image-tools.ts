@@ -1,10 +1,8 @@
-
-
-
 import convert from "heic-convert";
 import fs from "node:fs/promises";
 import nodePath from "node:path";
 import sharp from "sharp";
+
 
 // Run only if this file is executed directly
 if (process.argv[1] !== import.meta.filename) {
@@ -42,13 +40,20 @@ async function main() {
                 optimiseScans: true          // Optimize scan order
             })
 
+
+        const outputDir = `${IMG_DIR}/${baseName}`;
+
+        // Create directory if it doesn't exist (won't throw if it exists)
+        await fs.mkdir(outputDir, { recursive: true });
+
+
         const promises = [
             sharpConvert.resize(1920, 1080, {   // Resize to reduce file size
                 fit: 'inside',        // Maintain aspect ratio
                 withoutEnlargement: true // Don't upscale smaller images
-            }).toFile(`${IMG_DIR}/${baseName}-min.jpg`),
-            sharpConvert.resize(300, 200, { fit: 'cover', position: 'attention' }).toFile(`${IMG_DIR}/${baseName}-thumb-title.jpg`),
-            sharpConvert.resize(300, 200, { fit: 'cover', position: 'entropy' }).toFile(`${IMG_DIR}/${baseName}-thumb-faces.jpg`)
+            }).toFile(`${outputDir}/${baseName}-min.jpg`),
+            sharpConvert.resize(300, 200, { fit: 'cover', position: 'attention' }).toFile(`${outputDir}/${baseName}-thumb-title.jpg`),
+            sharpConvert.resize(300, 200, { fit: 'cover', position: 'entropy' }).toFile(`${outputDir}/${baseName}-thumb-faces.jpg`)
         ]
 
         await Promise.all(promises)
