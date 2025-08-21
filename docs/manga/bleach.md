@@ -1,0 +1,6 @@
+---
+title: Bleach
+---
+
+# {{ $frontmatter.title }}
+

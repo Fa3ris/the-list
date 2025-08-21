@@ -1,0 +1,6 @@
+---
+title: Kingdom
+---
+
+# {{ $frontmatter.title }}
+

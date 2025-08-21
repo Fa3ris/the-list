@@ -1,0 +1,6 @@
+---
+title: Bakuman
+---
+
+# {{ $frontmatter.title }}
+

@@ -1,0 +1,6 @@
+---
+title: Noragami
+---
+
+# {{ $frontmatter.title }}
+

@@ -1,0 +1,6 @@
+---
+title: Magi
+---
+
+# {{ $frontmatter.title }}
+

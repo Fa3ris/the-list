@@ -1,0 +1,6 @@
+---
+title: Kagurabachi
+---
+
+# {{ $frontmatter.title }}
+
