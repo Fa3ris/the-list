@@ -1,6 +1,30 @@
 ---
 aside: true
 ---
+
+
+![Passing too](https://img.shields.io/badge/passing-too-blue)
+
+![Fire too](https://img.shields.io/badge/fire-too-green)
+
+
+<script setup>
+import ThemeColorPicker from '@components/ThemeColorPicker.vue'
+import CssVarConfigurer from '@components/CssVarConfigurer.vue'
+import {data} from '@vp/data-loader/style-vars.data.ts'
+
+const toConfigure = Object.entries(data).filter(([selector, declarations]) => Object.keys(declarations).length > 0)
+
+const handleVarChange = (name, value) => {
+ document.documentElement.style.setProperty(name, value);
+}
+</script>
+
+
+# Configure Colors
+
+<CssVarConfigurer/>
+
 # GitHub Pages Deployment Guide
 
 This project is configured to automatically deploy to GitHub Pages whenever changes are merged to the `master` branch.
