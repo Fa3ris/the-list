@@ -2,7 +2,7 @@
 title: Get Backers
 emoji:  ✅
 excerpt: The first series I completed
-imgURL: assets/get-backers-tome-15.jpg
+imgURL: get-backers-tome-15.jpg
 imgAlt: Get Backers cover
 tags: 
     - jagan

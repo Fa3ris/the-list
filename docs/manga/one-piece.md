@@ -2,7 +2,7 @@
 title: One Piece
 emoji: 🔄⏳📅 
 excerpt: When will this end?
-imgURL: assets/one-piece-tome-61.jpg
+imgURL: one-piece-tome-61.jpg
 tags: 
     - pirate
     - shonen 
