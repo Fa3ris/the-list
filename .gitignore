@@ -26,3 +26,6 @@ dist-ssr
 # vitepress
 docs/.vitepress/dist
 docs/.vitepress/cache
+
+# assets proccesing
+images
