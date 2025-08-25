@@ -1,11 +1,10 @@
 
 <script setup lang="ts">
 import Card from '@components/Card.vue'
-import BlurryImage from '@components/BlurryImage.vue'
 
 import { withBase, } from 'vitepress'
 
-import type {YamlMetadata} from '@vp/data-loader/directory-entries-loader'
+import type { YamlMetadata } from '@vp/data-loader/directory-entries-loader'
 import type { PropType } from 'vue'
 
 
@@ -45,11 +44,7 @@ section.grid {
     <section :class="$style.grid">
         <template v-for="entry in data">
             <a :href="entry.path" :class="$style.cardLink">
-                <Card :title="entry.title" :excerpt="entry.excerpt" :emoji="entry.emoji" :tags="entry.tags">
-                    <template #image v-if="entry.imgURL">
-                        <BlurryImage :srcUrl="withBase(entry.imgURL)" :alt="entry.imgAlt" />
-                    </template>
-                </Card>
+                <Card :title="entry.title" :excerpt="entry.excerpt" :emoji="entry.emoji" :tags="entry.tags" :imageUrl="entry.imgURL ? withBase(entry.imgURL) : undefined" :imageAlt="entry.imgAlt" />
             </a>
         </template>
     </section>

@@ -16,7 +16,7 @@ export default {
           "link": "/5-centimeters-per-second"
         },
         {
-          "text": "A silent voice",
+          "text": "🦻 A silent voice",
           "link": "/a-silent-voice"
         },
         {
@@ -716,16 +716,212 @@ export default {
           "link": "/index"
         },
         {
+          "text": "300 jours avec toi",
+          "link": "/300-jours-avec-toi"
+        },
+        {
+          "text": "🦻 A silent voice",
+          "link": "/a-silent-voice"
+        },
+        {
+          "text": "Air gear",
+          "link": "/air-gear"
+        },
+        {
+          "text": "Akame ga kill",
+          "link": "/akame-ga-kill"
+        },
+        {
+          "text": "Assassination classroom",
+          "link": "/assassination-classroom"
+        },
+        {
+          "text": "Bakuman",
+          "link": "/bakuman"
+        },
+        {
+          "text": "Berserk",
+          "link": "/berserk"
+        },
+        {
+          "text": "Black Clover",
+          "link": "/black-clover"
+        },
+        {
+          "text": "Bleach",
+          "link": "/bleach"
+        },
+        {
+          "text": "Blue box",
+          "link": "/blue-box"
+        },
+        {
+          "text": "Chainsaw man",
+          "link": "/chainsaw-man"
+        },
+        {
+          "text": "Domestic girlfriend",
+          "link": "/domestic-girlfriend"
+        },
+        {
+          "text": "Dragon ball",
+          "link": "/dragon-ball"
+        },
+        {
+          "text": "Dream land",
+          "link": "/dream-land"
+        },
+        {
+          "text": "Fairy tail",
+          "link": "/fairy-tail"
+        },
+        {
+          "text": "Fire force",
+          "link": "/fire-force"
+        },
+        {
+          "text": "Fire punch",
+          "link": "/fire-punch"
+        },
+        {
+          "text": "Frieren - beyond journey's end",
+          "link": "/frieren-beyond-journeys-end"
+        },
+        {
           "text": "✅ Get Backers",
           "link": "/get-backers"
+        },
+        {
+          "text": "Gotobun no Hanayome",
+          "link": "/gotobun-no-hanayome"
+        },
+        {
+          "text": "Hajime no Ippo",
+          "link": "/hajime-no-ippo"
+        },
+        {
+          "text": "Hell's paradise",
+          "link": "/hells-paradise"
+        },
+        {
+          "text": "horimiya",
+          "link": "/horimiya"
+        },
+        {
+          "text": "Hunter x Hunter",
+          "link": "/hunter-x-hunter"
+        },
+        {
+          "text": "I want to eat your pancreas",
+          "link": "/i-want-to-eat-your-pancreas"
+        },
+        {
+          "text": "Jujutsu Kaisen",
+          "link": "/jujutsu-kaisen"
+        },
+        {
+          "text": "Kagurabachi",
+          "link": "/kagurabachi"
+        },
+        {
+          "text": "Kaguya sama - love is war",
+          "link": "/kaguya-sama-love-is-war"
+        },
+        {
+          "text": "Kingdom",
+          "link": "/kingdom"
+        },
+        {
+          "text": "Le prix du reste de ma vie",
+          "link": "/le-prix-du-reste-de-ma-vie"
+        },
+        {
+          "text": "Magi",
+          "link": "/magi"
+        },
+        {
+          "text": "mob psycho 100",
+          "link": "/mob-psycho-100"
+        },
+        {
+          "text": "My hero academia",
+          "link": "/my-hero-academia"
         },
         {
           "text": "✅ Naruto",
           "link": "/naruto"
         },
         {
+          "text": "Noragami",
+          "link": "/noragami"
+        },
+        {
           "text": "🔄⏳📅 One Piece",
           "link": "/one-piece"
+        },
+        {
+          "text": "One punch man",
+          "link": "/one-punch-man"
+        },
+        {
+          "text": "oshi no ko",
+          "link": "/oshi-no-ko"
+        },
+        {
+          "text": "Radiant",
+          "link": "/radiant"
+        },
+        {
+          "text": "Rurouni Kenshin",
+          "link": "/rurouni-kenshin"
+        },
+        {
+          "text": "Sakamoto days",
+          "link": "/sakamoto-days"
+        },
+        {
+          "text": "Seven deadly sins",
+          "link": "/seven-deadly-sins"
+        },
+        {
+          "text": "Shaman King",
+          "link": "/shaman-king"
+        },
+        {
+          "text": "smoking behind the supermarket with you",
+          "link": "/smoking-behind-the-supermarket-with-you"
+        },
+        {
+          "text": "Soul Eater",
+          "link": "/soul-eater"
+        },
+        {
+          "text": "the ancient magus bride",
+          "link": "/the-ancient-magus-bride"
+        },
+        {
+          "text": "the promised neverland",
+          "link": "/the-promised-neverland"
+        },
+        {
+          "text": "Tokyo ghoul",
+          "link": "/tokyo-ghoul"
+        },
+        {
+          "text": "We never learn",
+          "link": "/we-never-learn"
+        },
+        {
+          "text": "Yozakura family",
+          "link": "/yozakura-family"
+        },
+        {
+          "text": "Yu Yu hakusho",
+          "link": "/yu-yu-hakusho"
+        },
+        {
+          "text": "Zom 100",
+          "link": "/zom-100"
         }
       ]
     }
