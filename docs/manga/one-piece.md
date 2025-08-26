@@ -15,8 +15,5 @@ import BlurryImage from '@components/BlurryImage.vue'
 
 const {frontmatter} = useData();
 </script>
-<!-- LTeX: enabled=false -->
-# {{ frontmatter.title }}
-<!-- LTeX: enabled=true -->
 
 <BlurryImage :srcUrl="frontmatter.imgURL" :alt="frontmatter.imgAlt" />

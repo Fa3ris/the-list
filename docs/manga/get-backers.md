@@ -17,8 +17,5 @@ import { useData } from 'vitepress'
 const {frontmatter} = useData();
 
 </script>
-<!-- LTeX: enabled=false -->
-# {{ frontmatter.title }}
-<!-- LTeX: enabled=true -->
 
 <BlurryImage :srcUrl="frontmatter.imgURL" :alt="frontmatter.imgAlt" :width="250" :height="450" />

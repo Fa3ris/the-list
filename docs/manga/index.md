@@ -27,8 +27,6 @@ const remain = data.slice(3);
 }
 </style>
 
-# Manga
-
 <EntriesGrid :data="top3" />
 
 <ul>

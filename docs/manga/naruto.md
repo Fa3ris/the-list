@@ -21,8 +21,6 @@ const {frontmatter} = useData();
 
 <!-- magic comment to set LTeX settings -->
 <!-- LTeX: enabled=false -->
-# {{ frontmatter.title }}
-
 
 ![Naruto is GOAT](https://img.shields.io/badge/Rank-GOAT-blue)
 

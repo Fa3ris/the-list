@@ -1,5 +1,3 @@
 ---
 next: false
 ---
-
-# Books
