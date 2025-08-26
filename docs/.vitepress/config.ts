@@ -29,12 +29,22 @@ export default defineConfig({
     aside: false,
     socialLinks: [{ icon: "github", link: "https://github.com/Fa3ris" }],
   },
-  head: [["link", { rel: "icon", href: `${base}/checklist.png`, type:"image/png" }]],
+  head: [["link", { rel: "icon", href: `${base}/checklist.png`, type: "image/png" }]],
+  markdown: {
+    config(md) {
+      // automatically add the title to the markdown page
+      md.core.ruler.before('normalize', 'custom_title', (state) => {
+        const { title, emoji } = state.env.frontmatter || {}
+        if (!title) { return }
+        state.src = `# ${emoji ? `${emoji} ` : ''}${title}\n${state.src}`
+      })
+    }
+  },
   vite: {
     resolve: {
       alias: {
         '@components': path.resolve(import.meta.dirname, '..', '..', 'src'),
-        '@vp': path.resolve(import.meta.dirname)  
+        '@vp': path.resolve(import.meta.dirname)
       }
     }
   }
