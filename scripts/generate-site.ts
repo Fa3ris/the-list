@@ -1,8 +1,8 @@
 import path from "path";
 
 import fs from "fs";
-import type { DefaultTheme } from "vitepress";
 import matter from "gray-matter";
+import type { DefaultTheme } from "vitepress";
 
 const DOCS_DIR = path.resolve(
   process.env.INIT_CWD || path.dirname(import.meta.dirname),
@@ -116,6 +116,32 @@ function capitalizeFirstLetter(str: string): string {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
+
+const readFrontMatter = (pathToMarkdown: string): Record<string, string> => {
+
+  const bytesToRead = 500;
+  const buffer = Buffer.alloc(bytesToRead);
+  const fd = fs.openSync(pathToMarkdown, "r");
+  const bytesRead = fs.readSync(fd, buffer, 0, bytesToRead, 0);
+
+  if (bytesRead === 0) return {};
+
+  fs.closeSync(fd);
+  const partialContent = buffer.subarray(0, bytesRead).toString("utf8");
+
+  return Object.fromEntries(
+    partialContent
+      .split("\n")
+      .filter((line) => line.includes(":"))
+      .map((line) => {
+        const [key, value] = line.split(":");
+        if (!key || !value) return undefined;
+        return [key.trim().toLowerCase(), value.trim()];
+      })
+      .filter((keyPair) => keyPair !== undefined)
+  )
+}
+
 function toSideBarNav(
   nav: Nav,
   rootDir: string | undefined = undefined
@@ -144,34 +170,13 @@ function toSideBarItem(
     if (!rootDir) {
       return { text: defaultText, link: `/${content}` };
     }
-    const bytesToRead = 500;
-    const buffer = Buffer.alloc(bytesToRead); // Read first 500 bytes
     const pathToMarkdown = path.resolve(
       rootDir,
       ...parentPath,
       `${content}.md`
     );
-    const fd = fs.openSync(pathToMarkdown, "r");
-    const bytesRead = fs.readSync(fd, buffer, 0, bytesToRead, 0);
 
-    if (bytesRead === 0) {
-      return { text: defaultText, link: `/${content}` };
-    }
-    fs.closeSync(fd);
-    const partialContent = buffer.subarray(0, bytesRead).toString("utf8");
-
-    const metadata = Object.fromEntries(
-      partialContent
-        .split("\n")
-        .filter((line) => line.includes(":"))
-        .map((line) => {
-          const [key, value] = line.split(":");
-          if (!key || !value) return undefined;
-          return [key.trim().toLowerCase(), value.trim()];
-        })
-        .filter((keyPair) => keyPair !== undefined)
-    );
-
+    const metadata = readFrontMatter(pathToMarkdown)
     const titleParts = [
       metadata.emoji ?? "",
       metadata.title ?? defaultText,
@@ -185,7 +190,7 @@ function toSideBarItem(
   );
 
   const indexFileIdx = items.findIndex(
-    ({ text }) => typeof text === "string" && text.toLowerCase() === "index"
+    ({ link }) => typeof link === "string" && path.basename(link, path.extname(link)) === 'index'
   );
   const [indexFile] =
     indexFileIdx >= 0 ? items.splice(indexFileIdx, 1) : [undefined];
