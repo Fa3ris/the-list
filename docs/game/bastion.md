@@ -2,5 +2,5 @@
 title: Bastion
 ---
 
-# {{ $frontmatter.title }}
+
 

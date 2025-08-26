@@ -2,5 +2,5 @@
 title: Konosuba
 ---
 
-# {{ $frontmatter.title }}
+
 

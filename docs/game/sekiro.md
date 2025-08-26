@@ -3,4 +3,3 @@ title: Sekiro
 ---
 
 
-# {{ $frontmatter.title }}

@@ -2,5 +2,5 @@
 title: JoJo
 ---
 
-# {{ $frontmatter.title }}
+
 

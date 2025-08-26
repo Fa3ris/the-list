@@ -2,5 +2,5 @@
 title: Clannad
 ---
 
-# {{ $frontmatter.title }}
+
 

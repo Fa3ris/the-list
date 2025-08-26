@@ -3,4 +3,3 @@ title: Friends
 ---
 
 
-# {{ $frontmatter.title }}

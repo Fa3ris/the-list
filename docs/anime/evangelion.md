@@ -2,5 +2,5 @@
 title: Evangelion
 ---
 
-# {{ $frontmatter.title }}
+
 

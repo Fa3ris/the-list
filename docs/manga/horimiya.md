@@ -2,5 +2,5 @@
 title: horimiya
 ---
 
-# {{ $frontmatter.title }}
+
 

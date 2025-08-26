@@ -2,5 +2,5 @@
 title: Miami
 ---
 
-# {{ $frontmatter.title }}
+
 

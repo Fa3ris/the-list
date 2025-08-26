@@ -2,5 +2,5 @@
 title: Bakuman
 ---
 
-# {{ $frontmatter.title }}
+
 

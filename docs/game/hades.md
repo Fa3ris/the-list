@@ -2,5 +2,5 @@
 title: Hades
 ---
 
-# {{ $frontmatter.title }}
+
 

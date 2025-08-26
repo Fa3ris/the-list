@@ -2,5 +2,5 @@
 title: Haikyuu
 ---
 
-# {{ $frontmatter.title }}
+
 

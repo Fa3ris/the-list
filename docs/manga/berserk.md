@@ -2,5 +2,5 @@
 title: Berserk
 ---
 
-# {{ $frontmatter.title }}
+
 

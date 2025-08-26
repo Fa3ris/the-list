@@ -2,5 +2,5 @@
 title: Oregairu !!!!
 ---
 
-# {{ $frontmatter.title }}
+
 

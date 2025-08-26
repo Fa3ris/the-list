@@ -2,5 +2,5 @@
 title: Kyoto
 ---
 
-# {{ $frontmatter.title }}
+
 

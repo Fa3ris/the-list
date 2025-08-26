@@ -12,7 +12,7 @@ Color coding for different types of achievements
 
 Icons for different categories
 
-Card layout instead of plain list
+[x] Card layout instead of plain list
 
 Achievement counter (X out of Y items completed)
 
@@ -21,7 +21,7 @@ Random item spotlight to rediscover old goals
 Yearly review page showing what you accomplished
 
 Simple Additions
-Emoji support for more personality
+[x] Emoji support for more personality
 Simple statistics (items completed this year, etc.)
 Export to PDF for backup
-Dark mode for evening browsing
+[x] Dark mode for evening browsing

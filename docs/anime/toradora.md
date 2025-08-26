@@ -2,5 +2,5 @@
 title: toradora
 ---
 
-# {{ $frontmatter.title }}
+
 

@@ -1,4 +1,7 @@
 ---
-Title: Kingdom Hearts
-Emoji: ✅⭐️
+title: Kingdom Hearts
+emoji: ✅⭐️
 ---
+
+
+<TitleAndEmoji />

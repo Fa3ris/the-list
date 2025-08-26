@@ -1,4 +1,6 @@
 ---
+title: Anime
+emoji: 🌸
 next: false
 ---
 

@@ -2,5 +2,5 @@
 title: Digimon
 ---
 
-# {{ $frontmatter.title }}
+
 

@@ -2,5 +2,5 @@
 title: Bleach
 ---
 
-# {{ $frontmatter.title }}
+
 

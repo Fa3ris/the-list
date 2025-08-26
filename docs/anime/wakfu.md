@@ -2,5 +2,5 @@
 title: Wakfu
 ---
 
-# {{ $frontmatter.title }}
+
 

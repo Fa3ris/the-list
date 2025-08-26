@@ -2,5 +2,5 @@
 title: Kobe
 ---
 
-# {{ $frontmatter.title }}
+
 

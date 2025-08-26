@@ -4,4 +4,3 @@ emoji: ✅
 ---
 
 
-# {{ $frontmatter.title }}

@@ -2,5 +2,5 @@
 title: Osaka
 ---
 
-# {{ $frontmatter.title }}
+
 

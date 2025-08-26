@@ -1,5 +1,7 @@
 ---
+title: Game
+emoji: 🎮
 next: false
 ---
 
-# Game
+<TitleAndEmoji />

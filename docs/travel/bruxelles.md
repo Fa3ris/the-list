@@ -2,5 +2,5 @@
 title: Bruxelles
 ---
 
-# {{ $frontmatter.title }}
+
 

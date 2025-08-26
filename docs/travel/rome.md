@@ -2,5 +2,5 @@
 title: Rome
 ---
 
-# {{ $frontmatter.title }}
+
 

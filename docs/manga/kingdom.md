@@ -2,5 +2,5 @@
 title: Kingdom
 ---
 
-# {{ $frontmatter.title }}
+
 

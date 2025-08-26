@@ -2,5 +2,5 @@
 title: Chihayafuru
 ---
 
-# {{ $frontmatter.title }}
+
 

@@ -2,5 +2,5 @@
 title: Blacksburg
 ---
 
-# {{ $frontmatter.title }}
+
 

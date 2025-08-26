@@ -1,6 +1,5 @@
 ---
 title: The Last of Us
-Emoji: ✅⭐️
+emoji: ✅⭐️
 ---
 
-# {{ $frontmatter.title }}

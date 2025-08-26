@@ -2,12 +2,18 @@
 next: false
 ---
 
+
+https://newsletter.techworld-with-milan.com/p/the-greatest-software-development?utm_source=substack&utm_campaign=post_embed&utm_medium=web
+
+
+https://ghuntley.com/
+
 https://r2p.dev/b/2024-03-18-1brc-go/
 
 
 https://infosecwriteups.com/why-you-need-a-digital-garden-how-to-start-guide-a1f30f818c75
 
-
+https://thecodist.com/about-the-codist/
 
 https://developers.google.com/tech-writing/error-messages
 

@@ -2,5 +2,5 @@
 title: tonikawa
 ---
 
-# {{ $frontmatter.title }}
+
 

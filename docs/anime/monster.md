@@ -2,5 +2,5 @@
 title: Monster
 ---
 
-# {{ $frontmatter.title }}
+
 

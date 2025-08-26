@@ -2,5 +2,5 @@
 title: nisekoi
 ---
 
-# {{ $frontmatter.title }}
+
 

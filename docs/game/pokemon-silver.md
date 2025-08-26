@@ -1,6 +1,5 @@
 ---
-Title: Pokemon Argent
-Emoji: ✅⭐️
+title: Pokemon Argent
+emoji: ✅⭐️
 ---
 
-# {{ $frontmatter.title }}

@@ -2,7 +2,7 @@
 title: Naruto
 ---
 
-# {{ $frontmatter.title }}
+
 
 
 lorem ipsum

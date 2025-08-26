@@ -2,5 +2,5 @@
 title: Nara
 ---
 
-# {{ $frontmatter.title }}
+
 

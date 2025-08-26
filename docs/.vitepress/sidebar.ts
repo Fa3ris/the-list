@@ -8,7 +8,7 @@ export default {
       "text": "Anime",
       "items": [
         {
-          "text": "Index",
+          "text": "🌸 Anime",
           "link": "/index"
         },
         {
@@ -16,7 +16,7 @@ export default {
           "link": "/5-centimeters-per-second"
         },
         {
-          "text": "🦻 A silent voice",
+          "text": "A silent voice",
           "link": "/a-silent-voice"
         },
         {
@@ -552,7 +552,7 @@ export default {
       "text": "Game",
       "items": [
         {
-          "text": "Index",
+          "text": "🎮 Game",
           "link": "/index"
         },
         {

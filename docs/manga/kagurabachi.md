@@ -2,5 +2,5 @@
 title: Kagurabachi
 ---
 
-# {{ $frontmatter.title }}
+
 

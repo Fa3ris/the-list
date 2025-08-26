@@ -2,5 +2,5 @@
 title: Orange
 ---
 
-# {{ $frontmatter.title }}
+
 

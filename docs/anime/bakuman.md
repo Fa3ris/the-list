@@ -2,5 +2,5 @@
 title: bakuman
 ---
 
-# {{ $frontmatter.title }}
+
 

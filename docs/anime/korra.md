@@ -2,5 +2,5 @@
 title: Korra
 ---
 
-# {{ $frontmatter.title }}
+
 

@@ -2,5 +2,5 @@
 title: Sakura
 ---
 
-# {{ $frontmatter.title }}
+
 

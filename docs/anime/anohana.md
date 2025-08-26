@@ -2,5 +2,5 @@
 title: Anohana
 ---
 
-# {{ $frontmatter.title }}
+
 

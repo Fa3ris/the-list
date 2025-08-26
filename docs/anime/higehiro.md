@@ -2,5 +2,5 @@
 title: Higehiro
 ---
 
-# {{ $frontmatter.title }}
+
 

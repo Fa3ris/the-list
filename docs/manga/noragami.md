@@ -2,5 +2,5 @@
 title: Noragami
 ---
 
-# {{ $frontmatter.title }}
+
 

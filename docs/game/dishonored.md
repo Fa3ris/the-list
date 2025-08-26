@@ -2,5 +2,5 @@
 title: Dishonored
 ---
 
-# {{ $frontmatter.title }}
+
 

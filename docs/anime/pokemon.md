@@ -2,5 +2,5 @@
 title: Pokemon
 ---
 
-# {{ $frontmatter.title }}
+
 

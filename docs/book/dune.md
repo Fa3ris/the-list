@@ -2,5 +2,5 @@
 title: Dune
 ---
 
-# {{ $frontmatter.title }}
+
 

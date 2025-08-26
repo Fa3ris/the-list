@@ -2,5 +2,5 @@
 title: Magi
 ---
 
-# {{ $frontmatter.title }}
+
 
