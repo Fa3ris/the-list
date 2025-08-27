@@ -35,8 +35,9 @@
   },
   "include": [
     "src",
-    "docs/**/*.ts",
-    "docs/**/*.vue",
+    "scripts",
+    "docs/.vitepress/**/*.ts",
+    "docs/.vitepress/**/*.vue",
     "docs/**/*.md",
   ]
 }

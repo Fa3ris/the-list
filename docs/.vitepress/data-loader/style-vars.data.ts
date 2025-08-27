@@ -23,7 +23,7 @@ const rgbToHex = (color: RGBColor): string => {
 
 export default defineLoader({
     watch: ['../theme/style.css'],
-    async load(watchedFiles): Promise<Data> {
+    load(watchedFiles): Data {
 
         const content = fs.readFileSync(watchedFiles[0], "utf-8")
 
@@ -44,7 +44,7 @@ export default defineLoader({
                             if (decl.value.value[0].type !== 'color') continue
                             if (typeof decl.value.value[0].value !== 'object' || decl.value.value[0].value.type !== 'rgb') continue
                             if (!decl.value.name.startsWith('--vp-c-')) continue
-                            holder[decl.value.name] = rgbToHex(decl.value.value[0].value) 
+                            holder[decl.value.name] = rgbToHex(decl.value.value[0].value)
                         }
                     }
                 },

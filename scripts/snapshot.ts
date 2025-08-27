@@ -1,6 +1,7 @@
 import puppeteer from "puppeteer";
 import { writeFileSync } from "fs";
 import { join } from "path";
+import process from "node:process"
 
 async function takeScreenshot() {
   // Launch the browser and open a new blank page

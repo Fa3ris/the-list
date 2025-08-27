@@ -12,6 +12,13 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 const blur = ref(true)
+
+</script>
+
+<script>
+export default {
+  name: 'BlurItem'
+}
 </script>
 
 <style module>

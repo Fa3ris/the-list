@@ -34,6 +34,7 @@ export default defineConfig({
     config(md) {
       // automatically add the title to the markdown page
       md.core.ruler.before('normalize', 'custom_title', (state) => {
+        // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-member-access
         const { title, emoji } = state.env.frontmatter || {}
         if (!title) { return }
         state.src = `# ${emoji ? `${emoji} ` : ''}${title}\n${state.src}`

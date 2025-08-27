@@ -7,7 +7,7 @@ const category = process.argv[2] || 'anime'
 console.log(category)
 
 if (!validCategories.includes(category)) {
-  console.error(`category ${category} is invalid valid values are ${validCategories}`)
+  console.error(`category ${category} is invalid valid values are ${validCategories.join(',')}`)
   process.exit()
 }
 const categoryFolder = `docs/${category}`;

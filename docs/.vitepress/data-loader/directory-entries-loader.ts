@@ -23,29 +23,6 @@ const emojiWeights: Record<string, number> = {
 } as const
 
 
-const emojiComparer = (a: YamlMetadata, b: YamlMetadata) => {
-
-    const emojisA = a.emoji ? splitEmoji(a.emoji) : ['']
-    const emojisB = b.emoji ? splitEmoji(b.emoji) : ['']
-
-    const valA = emojisA.map(emoji => emojiWeights[emoji] ?? 0).reduce((val, acc) => acc + val, 0)
-    const valB = emojisB.map(emoji => emojiWeights[emoji] ?? 0).reduce((val, acc) => acc + val, 0)
-
-    return valA - valB
-}
-
-
-const tagsComparer = (a: YamlMetadata, b: YamlMetadata) => {
-
-    const emojisA = a.emoji ? splitEmoji(a.emoji) : ['']
-    const emojisB = b.emoji ? splitEmoji(b.emoji) : ['']
-
-    const valA = emojisA.map(emoji => emojiWeights[emoji] ?? 0).reduce((val, acc) => acc + val, 0)
-    const valB = emojisB.map(emoji => emojiWeights[emoji] ?? 0).reduce((val, acc) => acc + val, 0)
-
-    return valA - valB
-}
-
 const calculateEmojiWeight = (emoji: string | undefined): number => {
     if (!emoji) return 0;
 
@@ -97,10 +74,11 @@ export const createLoaderForDirectory = (directory: string): LoaderModule => {
 
     return defineLoader({
         watch: [`${process.cwd()}/docs/${directory}/**/*.md`, `!${process.cwd()}/docs/${directory}/**/index.md`],
-        async load(watchedFiles): Promise<YamlMetadata[]> {
+        load(watchedFiles): YamlMetadata[] {
             const data = watchedFiles.map(filePath => {
                 const parsed = matter.read(filePath,)
                 const resolvedPath = path.relative(`${process.cwd()}/docs/${directory}`, `${process.cwd()}/${filePath}`);
+                // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
                 const yaml: YamlMetadata = { ...parsed.data, path: resolvedPath.replace(/\.md$/, ''), imgURL: (parsed.data.imgURL && `/${directory}/${parsed.data.imgURL}`) || undefined }
                 return yaml
             });

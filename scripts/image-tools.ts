@@ -2,6 +2,7 @@ import convert from "heic-convert";
 import fs from "node:fs/promises";
 import nodePath from "node:path";
 import sharp from "sharp";
+import process from "node:process";
 
 
 // Run only if this file is executed directly
@@ -9,7 +10,7 @@ if (process.argv[1] !== import.meta.filename) {
     process.exit(0);
 }
 
-main()
+void main()
 
 
 async function main() {

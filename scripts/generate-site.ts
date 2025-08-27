@@ -9,32 +9,10 @@ const DOCS_DIR = path.resolve(
   "docs"
 );
 
-type Doc = {
-  title: string;
-  article: string;
-};
-
-const japan: Doc = {
-  title: "Japan",
-  article: "lovely",
-};
-
-const overridesFolderNameWith = {
+const overridesFolderNameWith: Record<string, string> = {
   dev: "Programming",
 };
 
-function generateVitePressMarkdown(item: Doc) {
-  return `---
-title: ${item.title}
----
-${item.article}
-`;
-}
-
-function generateSite() {
-  const content = generateVitePressMarkdown(japan);
-  fs.writeFileSync(path.join(DOCS_DIR, `${japan.title}.md`), content);
-}
 
 type Filename = string;
 export type Nav = { [entry: string]: Nav | Filename };
@@ -129,6 +107,7 @@ const readFrontMatter = (pathToMarkdown: string): Record<string, string> => {
   fs.closeSync(fd);
   const partialContent = buffer.subarray(0, bytesRead).toString("utf8");
 
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-return
   return Object.fromEntries(
     partialContent
       .split("\n")
@@ -146,6 +125,7 @@ function toSideBarNav(
   nav: Nav,
   rootDir: string | undefined = undefined
 ): DefaultTheme.Sidebar {
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-return
   return Object.fromEntries(
     Object.entries(nav)
       .map(([entryName, entryContent]) => {
@@ -225,7 +205,7 @@ export default ${JSON.stringify(
 );
 
 const rootDirs = Object.entries(nav).filter(
-  ([key, entry]) => typeof entry === "object"
+  ([, entry]) => typeof entry === "object"
 );
 
 
@@ -234,6 +214,7 @@ const rootDirs = Object.entries(nav).filter(
 const actions = rootDirs.map(([key], index) => {
   return {
     theme: index % 2 === 0 ? "brand" : "alt",
+     
     text: overridesFolderNameWith[key] ?? capitalizeFirstLetter(key),
     link: `/${key}`,
   };
@@ -246,7 +227,11 @@ const index = fs.readFileSync(indexPath, "utf-8");
 const { data, content } = matter(index);
 
 // Dynamically add the hero.actions to the frontmatter
+
+// eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
 data.hero = data.hero || {}; // Ensure hero object exists
+
+// eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
 data.hero.actions = actions;
 
 // Re-serialize the file with the updated frontmatter
@@ -257,7 +242,7 @@ fs.writeFileSync(indexPath, newContent, "utf8");
 
 // Generate site navigation items
 
-const navItems = rootDirs.map(([key], index) => {
+const navItems = rootDirs.map(([key]) => {
   return {
     text: overridesFolderNameWith[key] ?? capitalizeFirstLetter(key),
     link: `/${key}`,

@@ -1,5 +1,6 @@
 import matter from 'gray-matter';
 import fs from 'node:fs'
+import process from "node:process"
 
 // Run only if this file is executed directly
 if (process.argv[1] !== import.meta.filename) {
