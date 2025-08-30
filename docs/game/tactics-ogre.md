@@ -1,6 +1,3 @@
 ---
 title: Tactics ogre
 ---
-
-
-

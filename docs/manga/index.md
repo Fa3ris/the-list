@@ -10,7 +10,6 @@ const top3 = data.slice(0, 3);
 const remain = data.slice(3);
 </script>
 
-
 <style module>
 
     /* override default theme style with stronger selector */

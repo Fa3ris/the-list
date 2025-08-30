@@ -1,6 +1,3 @@
 ---
 title: bunny girl senpai
 ---
-
-
-

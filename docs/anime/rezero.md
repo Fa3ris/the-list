@@ -1,6 +1,3 @@
 ---
 title: Re:zero
 ---
-
-
-

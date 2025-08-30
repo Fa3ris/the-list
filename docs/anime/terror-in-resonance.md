@@ -1,6 +1,3 @@
 ---
 title: terror in resonance
 ---
-
-
-

@@ -1,6 +1,3 @@
 ---
 title: Kyokai no kanata
 ---
-
-
-

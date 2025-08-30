@@ -1,6 +1,3 @@
 ---
 title: Ousama Ranking
 ---
-
-
-

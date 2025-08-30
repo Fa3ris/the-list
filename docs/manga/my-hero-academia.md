@@ -1,6 +1,3 @@
 ---
 title: My hero academia
 ---
-
-
-

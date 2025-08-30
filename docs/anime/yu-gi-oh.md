@@ -1,6 +1,3 @@
 ---
 title: Yu gi oh
 ---
-
-
-

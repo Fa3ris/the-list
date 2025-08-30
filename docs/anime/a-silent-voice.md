@@ -1,6 +1,3 @@
 ---
 title: A silent voice
 ---
-
-
-

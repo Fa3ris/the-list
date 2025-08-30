@@ -1,6 +1,3 @@
 ---
 title: Gagner la guerre
 ---
-
-
-

@@ -1,5 +1,3 @@
 ---
-title: A Man called Ove 
+title: A Man called Ove
 ---
-
-

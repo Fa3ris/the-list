@@ -1,7 +1,4 @@
 ---
 title: A silent voice
-emoji: 🦻 
+emoji: 🦻
 ---
-
-
-

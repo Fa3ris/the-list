@@ -3,7 +3,12 @@
     <!-- Image Section -->
     <div :class="$style.imageSection" v-if="imageUrl || $slots.image">
       <slot name="image">
-        <img v-if="imageUrl" :src="imageUrl" :alt="imageAlt || title || 'Card image'" :class="$style.image" />
+        <img
+          v-if="imageUrl"
+          :src="imageUrl"
+          :alt="imageAlt || title || 'Card image'"
+          :class="$style.image"
+        />
       </slot>
     </div>
 
@@ -42,32 +47,32 @@
 </template>
 
 <script setup lang="ts">
-import type { PropType } from 'vue';
+import type { PropType } from "vue";
 
 defineProps({
   imageUrl: {
     type: String,
-    default: ''
+    default: "",
   },
   imageAlt: {
     type: String,
-    default: ''
+    default: "",
   },
   title: {
     type: String,
-    default: ''
+    default: "",
   },
   excerpt: {
     type: String,
-    default: ''
+    default: "",
   },
   tags: {
-    type: Array as PropType<string[]>
+    type: Array as PropType<string[]>,
   },
   emoji: {
-    type: String
-  }
-})
+    type: String,
+  },
+});
 </script>
 
 <style module>
@@ -76,12 +81,16 @@ defineProps({
   border-radius: 12px;
   overflow: hidden;
   /* background: white; */
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  box-shadow:
+    0 1px 3px 0 rgba(0, 0, 0, 0.1),
+    0 1px 2px 0 rgba(0, 0, 0, 0.06);
   transition: box-shadow 0.2s ease-in-out;
 }
 
 .card:hover {
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 .imageSection {

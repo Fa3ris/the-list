@@ -1,6 +1,3 @@
 ---
 title: Code geass
 ---
-
-
-

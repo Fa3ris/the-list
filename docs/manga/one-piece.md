@@ -1,12 +1,12 @@
 ---
 title: One Piece
-emoji: 🔄⏳📅 
+emoji: 🔄⏳📅
 excerpt: When will this end?
 imgURL: one-piece-tome-61.jpg
-tags: 
-    - pirate
-    - shonen 
-    - big3
+tags:
+  - pirate
+  - shonen
+  - big3
 ---
 
 <script setup lang="ts">

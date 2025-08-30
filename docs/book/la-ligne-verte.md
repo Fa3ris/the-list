@@ -1,6 +1,3 @@
 ---
 title: La ligne verte
 ---
-
-
-

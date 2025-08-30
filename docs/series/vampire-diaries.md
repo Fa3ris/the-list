@@ -1,6 +1,3 @@
 ---
 title: Vampire diaries
 ---
-
-
-

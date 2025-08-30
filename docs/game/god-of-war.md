@@ -1,6 +1,3 @@
 ---
 title: God of war
 ---
-
-
-

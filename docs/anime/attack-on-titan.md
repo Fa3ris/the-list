@@ -1,6 +1,3 @@
 ---
 title: Attack on Titan
 ---
-
-
-

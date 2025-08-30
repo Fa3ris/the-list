@@ -1,6 +1,3 @@
 ---
 title: Naruto ultimate ninja
 ---
-
-
-

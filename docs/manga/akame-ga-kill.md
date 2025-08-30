@@ -1,6 +1,3 @@
 ---
 title: Akame ga kill
 ---
-
-
-

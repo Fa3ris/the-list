@@ -1,6 +1,3 @@
 ---
 title: Vinland saga
 ---
-
-
-

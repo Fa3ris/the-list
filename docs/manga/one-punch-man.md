@@ -1,6 +1,3 @@
 ---
 title: One punch man
 ---
-
-
-

@@ -1,6 +1,3 @@
 ---
 title: One week friend
 ---
-
-
-

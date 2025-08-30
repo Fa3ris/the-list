@@ -49,7 +49,7 @@ describe("toSideBarNav", () => {
     expect(
       toSideBarNav({
         book: { foo: "foo", index: "index" },
-      })
+      }),
     ).toStrictEqual({
       "/book": [
         {
@@ -69,7 +69,7 @@ describe("toSideBarNav", () => {
       toSideBarNav({
         book: { foo: "foo", index: "index" },
         game: { baz: "baz" },
-      })
+      }),
     ).toStrictEqual({
       "/book": [
         {
@@ -95,7 +95,7 @@ describe("toSideBarNav", () => {
     expect(
       toSideBarNav({
         game: { action: { baz: "baz" } },
-      })
+      }),
     ).toStrictEqual({
       "/game": [
         {
@@ -120,7 +120,7 @@ describe("toSideBarNav", () => {
           action: { baz: "baz" },
           rpg: { japan: { pokemon: "pokemon" } },
         },
-      })
+      }),
     ).toStrictEqual({
       "/game": [
         {
@@ -153,7 +153,7 @@ describe("toSideBarNav", () => {
     expect(
       toSideBarNav({
         book: { foo: "foo" },
-      })
+      }),
     ).toStrictEqual({
       "/book": [
         {
@@ -220,7 +220,6 @@ Emoji: ✅⭐️
       ],
     });
   });
-
 
   it("ignores missing emoji", () => {
     vol.reset();

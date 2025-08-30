@@ -1,23 +1,34 @@
-import fs from 'fs';
-import path from 'path';
+import fs from "fs";
+import path from "path";
 
-const validCategories = ['anime', 'book', 'game', 'manga', 'movie', 'series', 'travel', 'webtoon']
+const validCategories = [
+  "anime",
+  "book",
+  "game",
+  "manga",
+  "movie",
+  "series",
+  "travel",
+  "webtoon",
+];
 
-const category = process.argv[2] || 'anime'
-console.log(category)
+const category = process.argv[2] || "anime";
+console.log(category);
 
 if (!validCategories.includes(category)) {
-  console.error(`category ${category} is invalid valid values are ${validCategories.join(',')}`)
-  process.exit()
+  console.error(
+    `category ${category} is invalid valid values are ${validCategories.join(",")}`,
+  );
+  process.exit();
 }
 const categoryFolder = `docs/${category}`;
-const indexContent = fs.readFileSync(`${categoryFolder}/index.md`, 'utf8');
+const indexContent = fs.readFileSync(`${categoryFolder}/index.md`, "utf8");
 
 // Extract list items (lines starting with '- ')
-const lines = indexContent.split('\n');
+const lines = indexContent.split("\n");
 const listItems = lines
-  .filter(line => line.trim().startsWith('- '))
-  .map(line => line.trim().substring(2).trim());
+  .filter((line) => line.trim().startsWith("- "))
+  .map((line) => line.trim().substring(2).trim());
 
 console.log(`Found ${listItems.length} list items`);
 
@@ -25,14 +36,16 @@ console.log(`Found ${listItems.length} list items`);
 function toDashCase(str: string) {
   return str
     .toLowerCase()
-    .replace(/[^a-z0-9\s-]/g, '') // Remove special characters except spaces and hyphens
-    .replace(/\s+/g, '-') // Replace spaces with hyphens
-    .replace(/-+/g, '-') // Replace multiple hyphens with single hyphen
-    .replace(/^-|-$/g, ''); // Remove leading/trailing hyphens
+    .replace(/[^a-z0-9\s-]/g, "") // Remove special characters except spaces and hyphens
+    .replace(/\s+/g, "-") // Replace spaces with hyphens
+    .replace(/-+/g, "-") // Replace multiple hyphens with single hyphen
+    .replace(/^-|-$/g, ""); // Remove leading/trailing hyphens
 }
 
 // Check existing files
-const existingFiles = fs.readdirSync(categoryFolder).filter(f => f.endsWith('.md') && f !== 'index.md');
+const existingFiles = fs
+  .readdirSync(categoryFolder)
+  .filter((f) => f.endsWith(".md") && f !== "index.md");
 
 console.log(`Found ${existingFiles.length} existing files:`, existingFiles);
 
@@ -40,8 +53,8 @@ let createdCount = 0;
 let skippedCount = 0;
 
 // Create files for each list item
-listItems.forEach(item => {
-  const filename = toDashCase(item) + '.md';
+listItems.forEach((item) => {
+  const filename = toDashCase(item) + ".md";
   const filepath = path.join(categoryFolder, filename);
 
   if (!existingFiles.includes(filename)) {
@@ -62,4 +75,6 @@ title: ${item}
   }
 });
 
-console.log(`\nSummary: Created ${createdCount} files, skipped ${skippedCount} files`);
+console.log(
+  `\nSummary: Created ${createdCount} files, skipped ${skippedCount} files`,
+);

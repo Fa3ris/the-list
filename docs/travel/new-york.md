@@ -1,6 +1,3 @@
 ---
 title: New York
 ---
-
-
-

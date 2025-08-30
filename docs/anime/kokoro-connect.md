@@ -1,6 +1,3 @@
 ---
 title: kokoro connect
 ---
-
-
-

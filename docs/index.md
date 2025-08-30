@@ -39,7 +39,7 @@ hero:
       text: Webtoon
       link: /webtoon
 features:
-  - title: 'Been there, done that'
+  - title: "Been there, done that"
     details: Stuff I particularly enjoyed
   - title: TODO
     details: Stuff that I would like/need to make time to do
@@ -47,7 +47,6 @@ features:
     details: Depends on the mood
 next: false
 ---
-
 
 <script setup lang="ts">
 
@@ -147,4 +146,3 @@ grid-template-columns: repeat(3, 1fr);
     color: inherit;
 }
 </style>
-

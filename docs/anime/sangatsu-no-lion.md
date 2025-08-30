@@ -1,6 +1,3 @@
 ---
 title: Sangatsu no lion
 ---
-
-
-

@@ -1,6 +1,3 @@
 ---
 title: monogatari series
 ---
-
-
-

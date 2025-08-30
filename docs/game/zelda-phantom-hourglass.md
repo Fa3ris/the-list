@@ -1,6 +1,3 @@
 ---
 title: Zelda phantom hourglass
 ---
-
-
-

@@ -1,6 +1,3 @@
 ---
 title: Fate apocrypha
 ---
-
-
-

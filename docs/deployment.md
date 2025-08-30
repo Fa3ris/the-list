@@ -2,11 +2,9 @@
 aside: true
 ---
 
-
 ![Passing too](https://img.shields.io/badge/passing-too-blue)
 
 ![Fire too](https://img.shields.io/badge/fire-too-green)
-
 
 <script setup>
 import ThemeColorPicker from '@components/ThemeColorPicker.vue'
@@ -19,7 +17,6 @@ const handleVarChange = (name, value) => {
  document.documentElement.style.setProperty(name, value);
 }
 </script>
-
 
 # Configure Colors
 
@@ -41,6 +38,7 @@ This project is configured to automatically deploy to GitHub Pages whenever chan
 ### 2. Repository Permissions
 
 The workflow requires the following permissions to deploy to GitHub Pages:
+
 - `contents: read` - To read the repository content
 - `pages: write` - To deploy to GitHub Pages
 - `id-token: write` - For secure deployment authentication
@@ -50,6 +48,7 @@ These permissions are automatically configured in the workflow file.
 ### 3. Deployment Process
 
 The deployment happens automatically when:
+
 - Code is pushed to the `master` branch
 - A pull request is merged to `master`
 - The workflow is manually triggered from the Actions tab
@@ -57,6 +56,7 @@ The deployment happens automatically when:
 #### Manual Deployment
 
 You can also trigger a deployment manually:
+
 1. Go to **Actions** tab in your GitHub repository
 2. Select "Deploy VitePress Site" workflow
 3. Click "Run workflow" button
@@ -67,6 +67,7 @@ You can also trigger a deployment manually:
 The deployment workflow consists of two jobs:
 
 ### Build Job
+
 1. **Checkout**: Downloads the repository code
 2. **Setup Node.js**: Installs Node.js v20
 3. **Setup pnpm**: Installs pnpm package manager with the exact version specified in `package.json`
@@ -77,6 +78,7 @@ The deployment workflow consists of two jobs:
 8. **Upload**: Uploads the built site as an artifact for deployment
 
 ### Deploy Job
+
 1. **Deploy**: Deploys the built site to GitHub Pages
 
 ## Build Scripts
@@ -85,8 +87,8 @@ The deployment uses these npm scripts in sequence:
 
 ```json
 {
-  "build": "tsx scripts/generate-site.ts",    // Generates content from your data
-  "docs:build": "vitepress build docs"         // Builds the VitePress static site
+  "build": "tsx scripts/generate-site.ts", // Generates content from your data
+  "docs:build": "vitepress build docs" // Builds the VitePress static site
 }
 ```
 
@@ -112,6 +114,7 @@ If the deployment fails:
 ### Access Your Site
 
 Once deployed successfully, your site will be available at:
+
 - `https://<username>.github.io/<repository-name>/`
 - Or your custom domain if configured
 

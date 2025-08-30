@@ -1,6 +1,3 @@
 ---
 title: Soul Eater
 ---
-
-
-

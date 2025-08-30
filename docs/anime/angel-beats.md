@@ -1,6 +1,3 @@
 ---
 title: Angel beats
 ---
-
-
-

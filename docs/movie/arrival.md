@@ -2,4 +2,3 @@
 title: The Arrival
 emoji: ✅
 ---
-

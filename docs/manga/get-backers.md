@@ -1,12 +1,12 @@
 ---
 title: Get Backers
-emoji:  ✅
+emoji: ✅
 excerpt: The first series I completed
 imgURL: get-backers-tome-15.jpg
 imgAlt: Get Backers cover
-tags: 
-    - jagan
-    - raitei
+tags:
+  - jagan
+  - raitei
 ---
 
 <script setup lang="ts">

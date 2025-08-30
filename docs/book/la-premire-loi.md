@@ -1,6 +1,3 @@
 ---
 title: La première loi
 ---
-
-
-

@@ -1,6 +1,3 @@
 ---
 title: Hell's paradise
 ---
-
-
-

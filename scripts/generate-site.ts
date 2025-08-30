@@ -6,13 +6,12 @@ import type { DefaultTheme } from "vitepress";
 
 const DOCS_DIR = path.resolve(
   process.env.INIT_CWD || path.dirname(import.meta.dirname),
-  "docs"
+  "docs",
 );
 
 const overridesFolderNameWith: Record<string, string> = {
   dev: "Programming",
 };
-
 
 type Filename = string;
 export type Nav = { [entry: string]: Nav | Filename };
@@ -22,7 +21,7 @@ function walkDir(
   options = {
     dirsToIgnore: [/\.vitepress/, /public/, /assets/],
     fileExtensionsToInclude: [/md/],
-  }
+  },
 ) {
   const entries = fs.readdirSync(rootDir, {
     recursive: true,
@@ -72,7 +71,7 @@ function walkDir(
   }
 
   const relativeFilePaths = files.map((file) =>
-    path.relative(rootDir, file).split("/")
+    path.relative(rootDir, file).split("/"),
   );
 
   for (const relativePath of relativeFilePaths) {
@@ -94,9 +93,7 @@ function capitalizeFirstLetter(str: string): string {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
-
 const readFrontMatter = (pathToMarkdown: string): Record<string, string> => {
-
   const bytesToRead = 500;
   const buffer = Buffer.alloc(bytesToRead);
   const fd = fs.openSync(pathToMarkdown, "r");
@@ -117,13 +114,13 @@ const readFrontMatter = (pathToMarkdown: string): Record<string, string> => {
         if (!key || !value) return undefined;
         return [key.trim().toLowerCase(), value.trim()];
       })
-      .filter((keyPair) => keyPair !== undefined)
-  )
-}
+      .filter((keyPair) => keyPair !== undefined),
+  );
+};
 
 function toSideBarNav(
   nav: Nav,
-  rootDir: string | undefined = undefined
+  rootDir: string | undefined = undefined,
 ): DefaultTheme.Sidebar {
   // eslint-disable-next-line @typescript-eslint/no-unsafe-return
   return Object.fromEntries(
@@ -135,7 +132,7 @@ function toSideBarNav(
           [toSideBarItem(entryName, entryContent, [], rootDir)],
         ];
       })
-      .filter((keyValue) => keyValue.length > 0)
+      .filter((keyValue) => keyValue.length > 0),
   );
 }
 
@@ -143,7 +140,7 @@ function toSideBarItem(
   entryName: string,
   content: Filename | Nav,
   parentPath: string[],
-  rootDir: string | undefined
+  rootDir: string | undefined,
 ): DefaultTheme.SidebarItem {
   if (typeof content === "string") {
     const defaultText = capitalizeFirstLetter(content);
@@ -153,10 +150,10 @@ function toSideBarItem(
     const pathToMarkdown = path.resolve(
       rootDir,
       ...parentPath,
-      `${content}.md`
+      `${content}.md`,
     );
 
-    const metadata = readFrontMatter(pathToMarkdown)
+    const metadata = readFrontMatter(pathToMarkdown);
     const titleParts = [
       metadata.emoji ?? "",
       metadata.title ?? defaultText,
@@ -166,11 +163,13 @@ function toSideBarItem(
   }
 
   const items = Object.entries(content).map((entry) =>
-    toSideBarItem(entry[0], entry[1], [...parentPath, entryName], rootDir)
+    toSideBarItem(entry[0], entry[1], [...parentPath, entryName], rootDir),
   );
 
   const indexFileIdx = items.findIndex(
-    ({ link }) => typeof link === "string" && path.basename(link, path.extname(link)) === 'index'
+    ({ link }) =>
+      typeof link === "string" &&
+      path.basename(link, path.extname(link)) === "index",
   );
   const [indexFile] =
     indexFileIdx >= 0 ? items.splice(indexFileIdx, 1) : [undefined];
@@ -179,7 +178,8 @@ function toSideBarItem(
     base: `/${
       parentPath.length > 0 ? `${parentPath.join("/")}/` : ""
     }${entryName}`,
-    text: overridesFolderNameWith[entryName] ?? capitalizeFirstLetter(entryName),
+    text:
+      overridesFolderNameWith[entryName] ?? capitalizeFirstLetter(entryName),
     items: indexFile ? [indexFile].concat(items) : items,
   };
 }
@@ -200,21 +200,20 @@ import type { DefaultTheme } from "vitepress";
 export default ${JSON.stringify(
     toSideBarNav(nav, DOCS_DIR),
     undefined,
-    2
-  )} satisfies DefaultTheme.Sidebar`
+    2,
+  )} satisfies DefaultTheme.Sidebar`,
 );
 
 const rootDirs = Object.entries(nav).filter(
-  ([, entry]) => typeof entry === "object"
+  ([, entry]) => typeof entry === "object",
 );
-
 
 // generate home page action links
 
 const actions = rootDirs.map(([key], index) => {
   return {
     theme: index % 2 === 0 ? "brand" : "alt",
-     
+
     text: overridesFolderNameWith[key] ?? capitalizeFirstLetter(key),
     link: `/${key}`,
   };

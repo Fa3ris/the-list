@@ -4,1126 +4,1126 @@ import type { DefaultTheme } from "vitepress";
 export default {
   "/anime": [
     {
-      "base": "/anime",
-      "text": "Anime",
-      "items": [
+      base: "/anime",
+      text: "Anime",
+      items: [
         {
-          "text": "🌸 Anime",
-          "link": "/index"
+          text: "🌸 Anime",
+          link: "/index",
         },
         {
-          "text": "5 centimeters per second",
-          "link": "/5-centimeters-per-second"
+          text: "5 centimeters per second",
+          link: "/5-centimeters-per-second",
         },
         {
-          "text": "A silent voice",
-          "link": "/a-silent-voice"
+          text: "A silent voice",
+          link: "/a-silent-voice",
         },
         {
-          "text": "Angel beats",
-          "link": "/angel-beats"
+          text: "Angel beats",
+          link: "/angel-beats",
         },
         {
-          "text": "Anohana",
-          "link": "/anohana"
+          text: "Anohana",
+          link: "/anohana",
         },
         {
-          "text": "Attack on Titan",
-          "link": "/attack-on-titan"
+          text: "Attack on Titan",
+          link: "/attack-on-titan",
         },
         {
-          "text": "Avatar the last airbender",
-          "link": "/avatar-the-last-airbender"
+          text: "Avatar the last airbender",
+          link: "/avatar-the-last-airbender",
         },
         {
-          "text": "bakuman",
-          "link": "/bakuman"
+          text: "bakuman",
+          link: "/bakuman",
         },
         {
-          "text": "Black butler",
-          "link": "/black-butler"
+          text: "Black butler",
+          link: "/black-butler",
         },
         {
-          "text": "Bleach",
-          "link": "/bleach"
+          text: "Bleach",
+          link: "/bleach",
         },
         {
-          "text": "bunny girl senpai",
-          "link": "/bunny-girl-senpai"
+          text: "bunny girl senpai",
+          link: "/bunny-girl-senpai",
         },
         {
-          "text": "Chihayafuru",
-          "link": "/chihayafuru"
+          text: "Chihayafuru",
+          link: "/chihayafuru",
         },
         {
-          "text": "Chunibyo",
-          "link": "/chunibyo"
+          text: "Chunibyo",
+          link: "/chunibyo",
         },
         {
-          "text": "Clannad",
-          "link": "/clannad"
+          text: "Clannad",
+          link: "/clannad",
         },
         {
-          "text": "Code geass",
-          "link": "/code-geass"
+          text: "Code geass",
+          link: "/code-geass",
         },
         {
-          "text": "Darling in the Franxx",
-          "link": "/darling-in-the-franxx"
+          text: "Darling in the Franxx",
+          link: "/darling-in-the-franxx",
         },
         {
-          "text": "Death note",
-          "link": "/death-note"
+          text: "Death note",
+          link: "/death-note",
         },
         {
-          "text": "Death parade",
-          "link": "/death-parade"
+          text: "Death parade",
+          link: "/death-parade",
         },
         {
-          "text": "Detective Conan",
-          "link": "/detective-conan"
+          text: "Detective Conan",
+          link: "/detective-conan",
         },
         {
-          "text": "Devilman crybaby",
-          "link": "/devilman-crybaby"
+          text: "Devilman crybaby",
+          link: "/devilman-crybaby",
         },
         {
-          "text": "Digimon",
-          "link": "/digimon"
+          text: "Digimon",
+          link: "/digimon",
         },
         {
-          "text": "Evangelion",
-          "link": "/evangelion"
+          text: "Evangelion",
+          link: "/evangelion",
         },
         {
-          "text": "Fate apocrypha",
-          "link": "/fate-apocrypha"
+          text: "Fate apocrypha",
+          link: "/fate-apocrypha",
         },
         {
-          "text": "Fate Heavens'Feel route",
-          "link": "/fate-heavensfeel-route"
+          text: "Fate Heavens'Feel route",
+          link: "/fate-heavensfeel-route",
         },
         {
-          "text": "Fate UBW",
-          "link": "/fate-ubw"
+          text: "Fate UBW",
+          link: "/fate-ubw",
         },
         {
-          "text": "Flavours of Youth",
-          "link": "/flavours-of-youth"
+          text: "Flavours of Youth",
+          link: "/flavours-of-youth",
         },
         {
-          "text": "Fullmetal Alchemist (not brotherhood)",
-          "link": "/fullmetal-alchemist-not-brotherhood"
+          text: "Fullmetal Alchemist (not brotherhood)",
+          link: "/fullmetal-alchemist-not-brotherhood",
         },
         {
-          "text": "gekkan shoujo Nozaki kun",
-          "link": "/gekkan-shoujo-nozaki-kun"
+          text: "gekkan shoujo Nozaki kun",
+          link: "/gekkan-shoujo-nozaki-kun",
         },
         {
-          "text": "Get Backers",
-          "link": "/get-backers"
+          text: "Get Backers",
+          link: "/get-backers",
         },
         {
-          "text": "Golden kamui",
-          "link": "/golden-kamui"
+          text: "Golden kamui",
+          link: "/golden-kamui",
         },
         {
-          "text": "Haikyuu",
-          "link": "/haikyuu"
+          text: "Haikyuu",
+          link: "/haikyuu",
         },
         {
-          "text": "Haruhi Suzumiya",
-          "link": "/haruhi-suzumiya"
+          text: "Haruhi Suzumiya",
+          link: "/haruhi-suzumiya",
         },
         {
-          "text": "Higehiro",
-          "link": "/higehiro"
+          text: "Higehiro",
+          link: "/higehiro",
         },
         {
-          "text": "hotarubi no mori e ???",
-          "link": "/hotarubi-no-mori-e"
+          text: "hotarubi no mori e ???",
+          link: "/hotarubi-no-mori-e",
         },
         {
-          "text": "Hunter x Hunter",
-          "link": "/hunter-x-hunter"
+          text: "Hunter x Hunter",
+          link: "/hunter-x-hunter",
         },
         {
-          "text": "JoJo",
-          "link": "/jojo"
+          text: "JoJo",
+          link: "/jojo",
         },
         {
-          "text": "Kimetsu no yaiba",
-          "link": "/kimetsu-no-yaiba"
+          text: "Kimetsu no yaiba",
+          link: "/kimetsu-no-yaiba",
         },
         {
-          "text": "kokoro connect",
-          "link": "/kokoro-connect"
+          text: "kokoro connect",
+          link: "/kokoro-connect",
         },
         {
-          "text": "Konosuba",
-          "link": "/konosuba"
+          text: "Konosuba",
+          link: "/konosuba",
         },
         {
-          "text": "Korra",
-          "link": "/korra"
+          text: "Korra",
+          link: "/korra",
         },
         {
-          "text": "Kuroko no basket",
-          "link": "/kuroko-no-basket"
+          text: "Kuroko no basket",
+          link: "/kuroko-no-basket",
         },
         {
-          "text": "Kyokai no kanata",
-          "link": "/kyokai-no-kanata"
+          text: "Kyokai no kanata",
+          link: "/kyokai-no-kanata",
         },
         {
-          "text": "made in abyss",
-          "link": "/made-in-abyss"
+          text: "made in abyss",
+          link: "/made-in-abyss",
         },
         {
-          "text": "masamune kun no revenge",
-          "link": "/masamune-kun-no-revenge"
+          text: "masamune kun no revenge",
+          link: "/masamune-kun-no-revenge",
         },
         {
-          "text": "mob psycho 100",
-          "link": "/mob-psycho-100"
+          text: "mob psycho 100",
+          link: "/mob-psycho-100",
         },
         {
-          "text": "monogatari series",
-          "link": "/monogatari-series"
+          text: "monogatari series",
+          link: "/monogatari-series",
         },
         {
-          "text": "Monster",
-          "link": "/monster"
+          text: "Monster",
+          link: "/monster",
         },
         {
-          "text": "my dress-up darling",
-          "link": "/my-dress-up-darling"
+          text: "my dress-up darling",
+          link: "/my-dress-up-darling",
         },
         {
-          "text": "Naruto shippuden",
-          "link": "/naruto-shippuden"
+          text: "Naruto shippuden",
+          link: "/naruto-shippuden",
         },
         {
-          "text": "Naruto",
-          "link": "/naruto"
+          text: "Naruto",
+          link: "/naruto",
         },
         {
-          "text": "Nijiiro days",
-          "link": "/nijiiro-days"
+          text: "Nijiiro days",
+          link: "/nijiiro-days",
         },
         {
-          "text": "nisekoi",
-          "link": "/nisekoi"
+          text: "nisekoi",
+          link: "/nisekoi",
         },
         {
-          "text": "One Piece",
-          "link": "/one-piece"
+          text: "One Piece",
+          link: "/one-piece",
         },
         {
-          "text": "One week friend",
-          "link": "/one-week-friend"
+          text: "One week friend",
+          link: "/one-week-friend",
         },
         {
-          "text": "Orange",
-          "link": "/orange"
+          text: "Orange",
+          link: "/orange",
         },
         {
-          "text": "ore no monogatari",
-          "link": "/ore-no-monogatari"
+          text: "ore no monogatari",
+          link: "/ore-no-monogatari",
         },
         {
-          "text": "ore shura ???",
-          "link": "/ore-shura"
+          text: "ore shura ???",
+          link: "/ore-shura",
         },
         {
-          "text": "Oregairu !!!!",
-          "link": "/oregairu"
+          text: "Oregairu !!!!",
+          link: "/oregairu",
         },
         {
-          "text": "Ousama Ranking",
-          "link": "/ousama-ranking"
+          text: "Ousama Ranking",
+          link: "/ousama-ranking",
         },
         {
-          "text": "parasyte",
-          "link": "/parasyte"
+          text: "parasyte",
+          link: "/parasyte",
         },
         {
-          "text": "plastic memories",
-          "link": "/plastic-memories"
+          text: "plastic memories",
+          link: "/plastic-memories",
         },
         {
-          "text": "Pokemon",
-          "link": "/pokemon"
+          text: "Pokemon",
+          link: "/pokemon",
         },
         {
-          "text": "Psycho pass",
-          "link": "/psycho-pass"
+          text: "Psycho pass",
+          link: "/psycho-pass",
         },
         {
-          "text": "puella magi madoka magica",
-          "link": "/puella-magi-madoka-magica"
+          text: "puella magi madoka magica",
+          link: "/puella-magi-madoka-magica",
         },
         {
-          "text": "Re",
-          "link": "/rezero"
+          text: "Re",
+          link: "/rezero",
         },
         {
-          "text": "Run with the wind - don't remember the japanese name",
-          "link": "/run-with-the-wind-dont-remember-the-japanese-name"
+          text: "Run with the wind - don't remember the japanese name",
+          link: "/run-with-the-wind-dont-remember-the-japanese-name",
         },
         {
-          "text": "Saenai Heroin no sodatekata",
-          "link": "/saenai-heroin-no-sodatekata"
+          text: "Saenai Heroin no sodatekata",
+          link: "/saenai-heroin-no-sodatekata",
         },
         {
-          "text": "Sakura no pet na kanojou",
-          "link": "/sakura-no-pet-na-kanojou"
+          text: "Sakura no pet na kanojou",
+          link: "/sakura-no-pet-na-kanojou",
         },
         {
-          "text": "Sakura",
-          "link": "/sakura"
+          text: "Sakura",
+          link: "/sakura",
         },
         {
-          "text": "Sangatsu no lion",
-          "link": "/sangatsu-no-lion"
+          text: "Sangatsu no lion",
+          link: "/sangatsu-no-lion",
         },
         {
-          "text": "sing yesterday for me",
-          "link": "/sing-yesterday-for-me"
+          text: "sing yesterday for me",
+          link: "/sing-yesterday-for-me",
         },
         {
-          "text": "Steins;Gate",
-          "link": "/steinsgate"
+          text: "Steins;Gate",
+          link: "/steinsgate",
         },
         {
-          "text": "Tengen toppa Gurren Lagan",
-          "link": "/tengen-toppa-gurren-lagan"
+          text: "Tengen toppa Gurren Lagan",
+          link: "/tengen-toppa-gurren-lagan",
         },
         {
-          "text": "terror in resonance",
-          "link": "/terror-in-resonance"
+          text: "terror in resonance",
+          link: "/terror-in-resonance",
         },
         {
-          "text": "The dangers in my heart",
-          "link": "/the-dangers-in-my-heart"
+          text: "The dangers in my heart",
+          link: "/the-dangers-in-my-heart",
         },
         {
-          "text": "the devil is a part-timer",
-          "link": "/the-devil-is-a-part-timer"
+          text: "the devil is a part-timer",
+          link: "/the-devil-is-a-part-timer",
         },
         {
-          "text": "the Garden of Words",
-          "link": "/the-garden-of-words"
+          text: "the Garden of Words",
+          link: "/the-garden-of-words",
         },
         {
-          "text": "The placed promised in our early days",
-          "link": "/the-placed-promised-in-our-early-days"
+          text: "The placed promised in our early days",
+          link: "/the-placed-promised-in-our-early-days",
         },
         {
-          "text": "tonikawa",
-          "link": "/tonikawa"
+          text: "tonikawa",
+          link: "/tonikawa",
         },
         {
-          "text": "toradora",
-          "link": "/toradora"
+          text: "toradora",
+          link: "/toradora",
         },
         {
-          "text": "tsuki ga kirei",
-          "link": "/tsuki-ga-kirei"
+          text: "tsuki ga kirei",
+          link: "/tsuki-ga-kirei",
         },
         {
-          "text": "Vinland saga",
-          "link": "/vinland-saga"
+          text: "Vinland saga",
+          link: "/vinland-saga",
         },
         {
-          "text": "Violet evergarden",
-          "link": "/violet-evergarden"
+          text: "Violet evergarden",
+          link: "/violet-evergarden",
         },
         {
-          "text": "vivi - Fluorits Eye's song",
-          "link": "/vivi-fluorits-eyes-song"
+          text: "vivi - Fluorits Eye's song",
+          link: "/vivi-fluorits-eyes-song",
         },
         {
-          "text": "Wakfu",
-          "link": "/wakfu"
+          text: "Wakfu",
+          link: "/wakfu",
         },
         {
-          "text": "words like a bubble",
-          "link": "/words-like-a-bubble"
+          text: "words like a bubble",
+          link: "/words-like-a-bubble",
         },
         {
-          "text": "Your lie in April",
-          "link": "/your-lie-in-april"
+          text: "Your lie in April",
+          link: "/your-lie-in-april",
         },
         {
-          "text": "Your Name",
-          "link": "/your-name"
+          text: "Your Name",
+          link: "/your-name",
         },
         {
-          "text": "Yu gi oh",
-          "link": "/yu-gi-oh"
-        }
-      ]
-    }
+          text: "Yu gi oh",
+          link: "/yu-gi-oh",
+        },
+      ],
+    },
   ],
   "/book": [
     {
-      "base": "/book",
-      "text": "Book",
-      "items": [
+      base: "/book",
+      text: "Book",
+      items: [
         {
-          "text": "Index",
-          "link": "/index"
+          text: "Index",
+          link: "/index",
         },
         {
-          "text": "1984",
-          "link": "/1984"
+          text: "1984",
+          link: "/1984",
         },
         {
-          "text": "A Man called Ove",
-          "link": "/a-man-called-ove"
+          text: "A Man called Ove",
+          link: "/a-man-called-ove",
         },
         {
-          "text": "Avant toi",
-          "link": "/avant-toi"
+          text: "Avant toi",
+          link: "/avant-toi",
         },
         {
-          "text": "Dans la toile du temps",
-          "link": "/dans-la-toile-du-temps"
+          text: "Dans la toile du temps",
+          link: "/dans-la-toile-du-temps",
         },
         {
-          "text": "De bons présages",
-          "link": "/de-bons-prsages"
+          text: "De bons présages",
+          link: "/de-bons-prsages",
         },
         {
-          "text": "Déracinée",
-          "link": "/dracine"
+          text: "Déracinée",
+          link: "/dracine",
         },
         {
-          "text": "Dune",
-          "link": "/dune"
+          text: "Dune",
+          link: "/dune",
         },
         {
-          "text": "Eragon - the Heritage saga",
-          "link": "/eragon-the-heritage-saga"
+          text: "Eragon - the Heritage saga",
+          link: "/eragon-the-heritage-saga",
         },
         {
-          "text": "Ewylan",
-          "link": "/ewylan"
+          text: "Ewylan",
+          link: "/ewylan",
         },
         {
-          "text": "Gagner la guerre",
-          "link": "/gagner-la-guerre"
+          text: "Gagner la guerre",
+          link: "/gagner-la-guerre",
         },
         {
-          "text": "Harry Potter",
-          "link": "/harry-potter"
+          text: "Harry Potter",
+          link: "/harry-potter",
         },
         {
-          "text": "Hunger games",
-          "link": "/hunger-games"
+          text: "Hunger games",
+          link: "/hunger-games",
         },
         {
-          "text": "La ligne verte",
-          "link": "/la-ligne-verte"
+          text: "La ligne verte",
+          link: "/la-ligne-verte",
         },
         {
-          "text": "La passeuse de mots",
-          "link": "/la-passeuse-de-mots"
+          text: "La passeuse de mots",
+          link: "/la-passeuse-de-mots",
         },
         {
-          "text": "La première loi",
-          "link": "/la-premire-loi"
+          text: "La première loi",
+          link: "/la-premire-loi",
         },
         {
-          "text": "La route des lucioles",
-          "link": "/la-route-des-lucioles"
+          text: "La route des lucioles",
+          link: "/la-route-des-lucioles",
         },
         {
-          "text": "La vie selon Ove",
-          "link": "/la-vie-selon-ove"
+          text: "La vie selon Ove",
+          link: "/la-vie-selon-ove",
         },
         {
-          "text": "La voix du sang",
-          "link": "/la-voix-du-sang"
+          text: "La voix du sang",
+          link: "/la-voix-du-sang",
         },
         {
-          "text": "Le couple d'à côté",
-          "link": "/le-couple-d-ct"
+          text: "Le couple d'à côté",
+          link: "/le-couple-d-ct",
         },
         {
-          "text": "Le nom du vent",
-          "link": "/le-nom-du-vent"
+          text: "Le nom du vent",
+          link: "/le-nom-du-vent",
         },
         {
-          "text": "Les maîtres enlumineurs",
-          "link": "/les-matres-enlumineurs"
+          text: "Les maîtres enlumineurs",
+          link: "/les-matres-enlumineurs",
         },
         {
-          "text": "Les puissants",
-          "link": "/les-puissants"
+          text: "Les puissants",
+          link: "/les-puissants",
         },
         {
-          "text": "Fils des brumes",
-          "link": "/mistborn"
+          text: "Fils des brumes",
+          link: "/mistborn",
         },
         {
-          "text": "Nos étoiles contraires",
-          "link": "/nos-toiles-contraires"
+          text: "Nos étoiles contraires",
+          link: "/nos-toiles-contraires",
         },
         {
-          "text": "✅⭐️ Nos Etoiles Contraires",
-          "link": "/the-fault-in-our-stars"
-        }
-      ]
-    }
+          text: "✅⭐️ Nos Etoiles Contraires",
+          link: "/the-fault-in-our-stars",
+        },
+      ],
+    },
   ],
   "/dev": [
     {
-      "base": "/dev",
-      "text": "Programming",
-      "items": [
+      base: "/dev",
+      text: "Programming",
+      items: [
         {
-          "text": "Index",
-          "link": "/index"
+          text: "Index",
+          link: "/index",
         },
         {
-          "base": "/dev/algo",
-          "text": "Algo",
-          "items": [
+          base: "/dev/algo",
+          text: "Algo",
+          items: [
             {
-              "text": "Index",
-              "link": "/index"
-            }
-          ]
+              text: "Index",
+              link: "/index",
+            },
+          ],
         },
         {
-          "base": "/dev/blog",
-          "text": "Blog",
-          "items": [
+          base: "/dev/blog",
+          text: "Blog",
+          items: [
             {
-              "text": "Index",
-              "link": "/index"
-            }
-          ]
+              text: "Index",
+              link: "/index",
+            },
+          ],
         },
         {
-          "base": "/dev/lang",
-          "text": "Lang",
-          "items": [
+          base: "/dev/lang",
+          text: "Lang",
+          items: [
             {
-              "text": "Typescript",
-              "link": "/typescript"
-            }
-          ]
+              text: "Typescript",
+              link: "/typescript",
+            },
+          ],
         },
         {
-          "base": "/dev/tools",
-          "text": "Tools",
-          "items": [
+          base: "/dev/tools",
+          text: "Tools",
+          items: [
             {
-              "text": "Index",
-              "link": "/index"
-            }
-          ]
+              text: "Index",
+              link: "/index",
+            },
+          ],
         },
         {
-          "text": "🚧 Breakout",
-          "link": "/breakout"
+          text: "🚧 Breakout",
+          link: "/breakout",
         },
         {
-          "text": "Git",
-          "link": "/git"
+          text: "Git",
+          link: "/git",
         },
         {
-          "text": "JACK compiler",
-          "link": "/jack-compiler"
+          text: "JACK compiler",
+          link: "/jack-compiler",
         },
         {
-          "text": "Tiny renderer",
-          "link": "/tiny-renderer"
-        }
-      ]
-    }
+          text: "Tiny renderer",
+          link: "/tiny-renderer",
+        },
+      ],
+    },
   ],
   "/game": [
     {
-      "base": "/game",
-      "text": "Game",
-      "items": [
+      base: "/game",
+      text: "Game",
+      items: [
         {
-          "text": "🎮 Game",
-          "link": "/index"
+          text: "🎮 Game",
+          link: "/index",
         },
         {
-          "text": "Ace attorney",
-          "link": "/ace-attorney"
+          text: "Ace attorney",
+          link: "/ace-attorney",
         },
         {
-          "text": "Bastion",
-          "link": "/bastion"
+          text: "Bastion",
+          link: "/bastion",
         },
         {
-          "text": "Call of Duty Black Ops",
-          "link": "/call-of-duty-black-ops"
+          text: "Call of Duty Black Ops",
+          link: "/call-of-duty-black-ops",
         },
         {
-          "text": "DBZ Budokai tenkaichi",
-          "link": "/dbz-budokai-tenkaichi"
+          text: "DBZ Budokai tenkaichi",
+          link: "/dbz-budokai-tenkaichi",
         },
         {
-          "text": "DBZ Budokai",
-          "link": "/dbz-budokai"
+          text: "DBZ Budokai",
+          link: "/dbz-budokai",
         },
         {
-          "text": "Dead cells",
-          "link": "/dead-cells"
+          text: "Dead cells",
+          link: "/dead-cells",
         },
         {
-          "text": "Deux ex",
-          "link": "/deux-ex"
+          text: "Deux ex",
+          link: "/deux-ex",
         },
         {
-          "text": "Dishonored",
-          "link": "/dishonored"
+          text: "Dishonored",
+          link: "/dishonored",
         },
         {
-          "text": "Dragon quest",
-          "link": "/dragon-quest"
+          text: "Dragon quest",
+          link: "/dragon-quest",
         },
         {
-          "text": "Fire emblem Awakening",
-          "link": "/fire-emblem-awakening"
+          text: "Fire emblem Awakening",
+          link: "/fire-emblem-awakening",
         },
         {
-          "text": "Fire emblem echoes",
-          "link": "/fire-emblem-echoes"
+          text: "Fire emblem echoes",
+          link: "/fire-emblem-echoes",
         },
         {
-          "text": "God of war",
-          "link": "/god-of-war"
+          text: "God of war",
+          link: "/god-of-war",
         },
         {
-          "text": "Hades",
-          "link": "/hades"
+          text: "Hades",
+          link: "/hades",
         },
         {
-          "text": "✅⭐️ Kingdom Hearts",
-          "link": "/kingdom-hearts"
+          text: "✅⭐️ Kingdom Hearts",
+          link: "/kingdom-hearts",
         },
         {
-          "text": "Kingdom Rush - tower defense",
-          "link": "/kingdom-rush-tower-defense"
+          text: "Kingdom Rush - tower defense",
+          link: "/kingdom-rush-tower-defense",
         },
         {
-          "text": "Naruto ultimate ninja",
-          "link": "/naruto-ultimate-ninja"
+          text: "Naruto ultimate ninja",
+          link: "/naruto-ultimate-ninja",
         },
         {
-          "text": "Persona 5",
-          "link": "/persona-5"
+          text: "Persona 5",
+          link: "/persona-5",
         },
         {
-          "text": "Pirate Outlaws",
-          "link": "/pirate-outlaws"
+          text: "Pirate Outlaws",
+          link: "/pirate-outlaws",
         },
         {
-          "text": "Pokemon donjon mystère",
-          "link": "/pokemon-donjon-mystre"
+          text: "Pokemon donjon mystère",
+          link: "/pokemon-donjon-mystre",
         },
         {
-          "text": "✅⭐️ Pokemon Argent",
-          "link": "/pokemon-silver"
+          text: "✅⭐️ Pokemon Argent",
+          link: "/pokemon-silver",
         },
         {
-          "text": "Pokemon",
-          "link": "/pokemon"
+          text: "Pokemon",
+          link: "/pokemon",
         },
         {
-          "text": "Radiant historia",
-          "link": "/radiant-historia"
+          text: "Radiant historia",
+          link: "/radiant-historia",
         },
         {
-          "text": "Ratchet & Clank 3",
-          "link": "/ratchet-clank-3"
+          text: "Ratchet & Clank 3",
+          link: "/ratchet-clank-3",
         },
         {
-          "text": "Ratchet Gladiator",
-          "link": "/ratchet-gladiator"
+          text: "Ratchet Gladiator",
+          link: "/ratchet-gladiator",
         },
         {
-          "text": "Sekiro",
-          "link": "/sekiro"
+          text: "Sekiro",
+          link: "/sekiro",
         },
         {
-          "text": "Spider man",
-          "link": "/spider-man"
+          text: "Spider man",
+          link: "/spider-man",
         },
         {
-          "text": "Tactics ogre",
-          "link": "/tactics-ogre"
+          text: "Tactics ogre",
+          link: "/tactics-ogre",
         },
         {
-          "text": "The last of us",
-          "link": "/the-last-of-us"
+          text: "The last of us",
+          link: "/the-last-of-us",
         },
         {
-          "text": "The witcher 3",
-          "link": "/the-witcher-3"
+          text: "The witcher 3",
+          link: "/the-witcher-3",
         },
         {
-          "text": "✅⭐️ The Last of Us",
-          "link": "/tlou"
+          text: "✅⭐️ The Last of Us",
+          link: "/tlou",
         },
         {
-          "text": "yu-gi-oh game boy",
-          "link": "/yu-gi-oh-game-boy"
+          text: "yu-gi-oh game boy",
+          link: "/yu-gi-oh-game-boy",
         },
         {
-          "text": "Zelda minish cap",
-          "link": "/zelda-minish-cap"
+          text: "Zelda minish cap",
+          link: "/zelda-minish-cap",
         },
         {
-          "text": "Zelda phantom hourglass",
-          "link": "/zelda-phantom-hourglass"
+          text: "Zelda phantom hourglass",
+          link: "/zelda-phantom-hourglass",
         },
         {
-          "text": "Zelda spirit tracks",
-          "link": "/zelda-spirit-tracks"
-        }
-      ]
-    }
+          text: "Zelda spirit tracks",
+          link: "/zelda-spirit-tracks",
+        },
+      ],
+    },
   ],
   "/japanese": [
     {
-      "base": "/japanese",
-      "text": "Japanese",
-      "items": [
+      base: "/japanese",
+      text: "Japanese",
+      items: [
         {
-          "text": "Index",
-          "link": "/index"
-        }
-      ]
-    }
+          text: "Index",
+          link: "/index",
+        },
+      ],
+    },
   ],
   "/manga": [
     {
-      "base": "/manga",
-      "text": "Manga",
-      "items": [
+      base: "/manga",
+      text: "Manga",
+      items: [
         {
-          "text": "Index",
-          "link": "/index"
+          text: "Index",
+          link: "/index",
         },
         {
-          "text": "300 jours avec toi",
-          "link": "/300-jours-avec-toi"
+          text: "300 jours avec toi",
+          link: "/300-jours-avec-toi",
         },
         {
-          "text": "🦻 A silent voice",
-          "link": "/a-silent-voice"
+          text: "🦻 A silent voice",
+          link: "/a-silent-voice",
         },
         {
-          "text": "Air gear",
-          "link": "/air-gear"
+          text: "Air gear",
+          link: "/air-gear",
         },
         {
-          "text": "Akame ga kill",
-          "link": "/akame-ga-kill"
+          text: "Akame ga kill",
+          link: "/akame-ga-kill",
         },
         {
-          "text": "Assassination classroom",
-          "link": "/assassination-classroom"
+          text: "Assassination classroom",
+          link: "/assassination-classroom",
         },
         {
-          "text": "Bakuman",
-          "link": "/bakuman"
+          text: "Bakuman",
+          link: "/bakuman",
         },
         {
-          "text": "Berserk",
-          "link": "/berserk"
+          text: "Berserk",
+          link: "/berserk",
         },
         {
-          "text": "Black Clover",
-          "link": "/black-clover"
+          text: "Black Clover",
+          link: "/black-clover",
         },
         {
-          "text": "Bleach",
-          "link": "/bleach"
+          text: "Bleach",
+          link: "/bleach",
         },
         {
-          "text": "Blue box",
-          "link": "/blue-box"
+          text: "Blue box",
+          link: "/blue-box",
         },
         {
-          "text": "Chainsaw man",
-          "link": "/chainsaw-man"
+          text: "Chainsaw man",
+          link: "/chainsaw-man",
         },
         {
-          "text": "Domestic girlfriend",
-          "link": "/domestic-girlfriend"
+          text: "Domestic girlfriend",
+          link: "/domestic-girlfriend",
         },
         {
-          "text": "Dragon ball",
-          "link": "/dragon-ball"
+          text: "Dragon ball",
+          link: "/dragon-ball",
         },
         {
-          "text": "Dream land",
-          "link": "/dream-land"
+          text: "Dream land",
+          link: "/dream-land",
         },
         {
-          "text": "Fairy tail",
-          "link": "/fairy-tail"
+          text: "Fairy tail",
+          link: "/fairy-tail",
         },
         {
-          "text": "Fire force",
-          "link": "/fire-force"
+          text: "Fire force",
+          link: "/fire-force",
         },
         {
-          "text": "Fire punch",
-          "link": "/fire-punch"
+          text: "Fire punch",
+          link: "/fire-punch",
         },
         {
-          "text": "Frieren - beyond journey's end",
-          "link": "/frieren-beyond-journeys-end"
+          text: "Frieren - beyond journey's end",
+          link: "/frieren-beyond-journeys-end",
         },
         {
-          "text": "✅ Get Backers",
-          "link": "/get-backers"
+          text: "✅ Get Backers",
+          link: "/get-backers",
         },
         {
-          "text": "Gotobun no Hanayome",
-          "link": "/gotobun-no-hanayome"
+          text: "Gotobun no Hanayome",
+          link: "/gotobun-no-hanayome",
         },
         {
-          "text": "Hajime no Ippo",
-          "link": "/hajime-no-ippo"
+          text: "Hajime no Ippo",
+          link: "/hajime-no-ippo",
         },
         {
-          "text": "Hell's paradise",
-          "link": "/hells-paradise"
+          text: "Hell's paradise",
+          link: "/hells-paradise",
         },
         {
-          "text": "horimiya",
-          "link": "/horimiya"
+          text: "horimiya",
+          link: "/horimiya",
         },
         {
-          "text": "Hunter x Hunter",
-          "link": "/hunter-x-hunter"
+          text: "Hunter x Hunter",
+          link: "/hunter-x-hunter",
         },
         {
-          "text": "I want to eat your pancreas",
-          "link": "/i-want-to-eat-your-pancreas"
+          text: "I want to eat your pancreas",
+          link: "/i-want-to-eat-your-pancreas",
         },
         {
-          "text": "Jujutsu Kaisen",
-          "link": "/jujutsu-kaisen"
+          text: "Jujutsu Kaisen",
+          link: "/jujutsu-kaisen",
         },
         {
-          "text": "Kagurabachi",
-          "link": "/kagurabachi"
+          text: "Kagurabachi",
+          link: "/kagurabachi",
         },
         {
-          "text": "Kaguya sama - love is war",
-          "link": "/kaguya-sama-love-is-war"
+          text: "Kaguya sama - love is war",
+          link: "/kaguya-sama-love-is-war",
         },
         {
-          "text": "Kingdom",
-          "link": "/kingdom"
+          text: "Kingdom",
+          link: "/kingdom",
         },
         {
-          "text": "Le prix du reste de ma vie",
-          "link": "/le-prix-du-reste-de-ma-vie"
+          text: "Le prix du reste de ma vie",
+          link: "/le-prix-du-reste-de-ma-vie",
         },
         {
-          "text": "Magi",
-          "link": "/magi"
+          text: "Magi",
+          link: "/magi",
         },
         {
-          "text": "mob psycho 100",
-          "link": "/mob-psycho-100"
+          text: "mob psycho 100",
+          link: "/mob-psycho-100",
         },
         {
-          "text": "My hero academia",
-          "link": "/my-hero-academia"
+          text: "My hero academia",
+          link: "/my-hero-academia",
         },
         {
-          "text": "✅ Naruto",
-          "link": "/naruto"
+          text: "✅ Naruto",
+          link: "/naruto",
         },
         {
-          "text": "Noragami",
-          "link": "/noragami"
+          text: "Noragami",
+          link: "/noragami",
         },
         {
-          "text": "🔄⏳📅 One Piece",
-          "link": "/one-piece"
+          text: "🔄⏳📅 One Piece",
+          link: "/one-piece",
         },
         {
-          "text": "One punch man",
-          "link": "/one-punch-man"
+          text: "One punch man",
+          link: "/one-punch-man",
         },
         {
-          "text": "oshi no ko",
-          "link": "/oshi-no-ko"
+          text: "oshi no ko",
+          link: "/oshi-no-ko",
         },
         {
-          "text": "Radiant",
-          "link": "/radiant"
+          text: "Radiant",
+          link: "/radiant",
         },
         {
-          "text": "Rurouni Kenshin",
-          "link": "/rurouni-kenshin"
+          text: "Rurouni Kenshin",
+          link: "/rurouni-kenshin",
         },
         {
-          "text": "Sakamoto days",
-          "link": "/sakamoto-days"
+          text: "Sakamoto days",
+          link: "/sakamoto-days",
         },
         {
-          "text": "Seven deadly sins",
-          "link": "/seven-deadly-sins"
+          text: "Seven deadly sins",
+          link: "/seven-deadly-sins",
         },
         {
-          "text": "Shaman King",
-          "link": "/shaman-king"
+          text: "Shaman King",
+          link: "/shaman-king",
         },
         {
-          "text": "smoking behind the supermarket with you",
-          "link": "/smoking-behind-the-supermarket-with-you"
+          text: "smoking behind the supermarket with you",
+          link: "/smoking-behind-the-supermarket-with-you",
         },
         {
-          "text": "Soul Eater",
-          "link": "/soul-eater"
+          text: "Soul Eater",
+          link: "/soul-eater",
         },
         {
-          "text": "the ancient magus bride",
-          "link": "/the-ancient-magus-bride"
+          text: "the ancient magus bride",
+          link: "/the-ancient-magus-bride",
         },
         {
-          "text": "the promised neverland",
-          "link": "/the-promised-neverland"
+          text: "the promised neverland",
+          link: "/the-promised-neverland",
         },
         {
-          "text": "Tokyo ghoul",
-          "link": "/tokyo-ghoul"
+          text: "Tokyo ghoul",
+          link: "/tokyo-ghoul",
         },
         {
-          "text": "We never learn",
-          "link": "/we-never-learn"
+          text: "We never learn",
+          link: "/we-never-learn",
         },
         {
-          "text": "Yozakura family",
-          "link": "/yozakura-family"
+          text: "Yozakura family",
+          link: "/yozakura-family",
         },
         {
-          "text": "Yu Yu hakusho",
-          "link": "/yu-yu-hakusho"
+          text: "Yu Yu hakusho",
+          link: "/yu-yu-hakusho",
         },
         {
-          "text": "Zom 100",
-          "link": "/zom-100"
-        }
-      ]
-    }
+          text: "Zom 100",
+          link: "/zom-100",
+        },
+      ],
+    },
   ],
   "/movie": [
     {
-      "base": "/movie",
-      "text": "Movie",
-      "items": [
+      base: "/movie",
+      text: "Movie",
+      items: [
         {
-          "text": "Index",
-          "link": "/index"
+          text: "Index",
+          link: "/index",
         },
         {
-          "text": "✅ The Arrival",
-          "link": "/arrival"
+          text: "✅ The Arrival",
+          link: "/arrival",
         },
         {
-          "text": "Harry Potter",
-          "link": "/harry-potter"
+          text: "Harry Potter",
+          link: "/harry-potter",
         },
         {
-          "text": "Scott pilgrim - why this first",
-          "link": "/scott-pilgrim-why-this-first"
-        }
-      ]
-    }
+          text: "Scott pilgrim - why this first",
+          link: "/scott-pilgrim-why-this-first",
+        },
+      ],
+    },
   ],
   "/music": [
     {
-      "base": "/music",
-      "text": "Music",
-      "items": [
+      base: "/music",
+      text: "Music",
+      items: [
         {
-          "text": "Index",
-          "link": "/index"
+          text: "Index",
+          link: "/index",
         },
         {
-          "text": "Blooming in the mud",
-          "link": "/blooming-in-the-mud"
+          text: "Blooming in the mud",
+          link: "/blooming-in-the-mud",
         },
         {
-          "text": "✅ Colors",
-          "link": "/colors"
-        }
-      ]
-    }
+          text: "✅ Colors",
+          link: "/colors",
+        },
+      ],
+    },
   ],
   "/series": [
     {
-      "base": "/series",
-      "text": "Series",
-      "items": [
+      base: "/series",
+      text: "Series",
+      items: [
         {
-          "text": "Index",
-          "link": "/index"
+          text: "Index",
+          link: "/index",
         },
         {
-          "text": "Brookly 99",
-          "link": "/brooklyn-99"
+          text: "Brookly 99",
+          link: "/brooklyn-99",
         },
         {
-          "text": "Friends",
-          "link": "/friends"
+          text: "Friends",
+          link: "/friends",
         },
         {
-          "text": "Gilmore girls",
-          "link": "/gilmore-girls"
+          text: "Gilmore girls",
+          link: "/gilmore-girls",
         },
         {
-          "text": "How I met your Mother",
-          "link": "/himym"
+          text: "How I met your Mother",
+          link: "/himym",
         },
         {
-          "text": "Suits",
-          "link": "/suits"
+          text: "Suits",
+          link: "/suits",
         },
         {
-          "text": "The Big Bang Theory",
-          "link": "/the-big-bang-theory"
+          text: "The Big Bang Theory",
+          link: "/the-big-bang-theory",
         },
         {
-          "text": "Vampire diaries",
-          "link": "/vampire-diaries"
-        }
-      ]
-    }
+          text: "Vampire diaries",
+          link: "/vampire-diaries",
+        },
+      ],
+    },
   ],
   "/travel": [
     {
-      "base": "/travel",
-      "text": "Travel",
-      "items": [
+      base: "/travel",
+      text: "Travel",
+      items: [
         {
-          "text": "Index",
-          "link": "/index"
+          text: "Index",
+          link: "/index",
         },
         {
-          "text": "Annecy",
-          "link": "/annecy"
+          text: "Annecy",
+          link: "/annecy",
         },
         {
-          "text": "Barcelona",
-          "link": "/barcelona"
+          text: "Barcelona",
+          link: "/barcelona",
         },
         {
-          "text": "Berlin",
-          "link": "/berlin"
+          text: "Berlin",
+          link: "/berlin",
         },
         {
-          "text": "Blacksburg",
-          "link": "/blacksburg"
+          text: "Blacksburg",
+          link: "/blacksburg",
         },
         {
-          "text": "Bordeaux",
-          "link": "/bordeaux"
+          text: "Bordeaux",
+          link: "/bordeaux",
         },
         {
-          "text": "Bruxelles",
-          "link": "/bruxelles"
+          text: "Bruxelles",
+          link: "/bruxelles",
         },
         {
-          "text": "Chambord",
-          "link": "/chambord"
+          text: "Chambord",
+          link: "/chambord",
         },
         {
-          "text": "Fécamp",
-          "link": "/fecamp"
+          text: "Fécamp",
+          link: "/fecamp",
         },
         {
-          "text": "Fujikawaguchiko",
-          "link": "/fujikawaguchiko"
+          text: "Fujikawaguchiko",
+          link: "/fujikawaguchiko",
         },
         {
-          "text": "Geneve",
-          "link": "/geneve"
+          text: "Geneve",
+          link: "/geneve",
         },
         {
-          "text": "Kobe",
-          "link": "/kobe"
+          text: "Kobe",
+          link: "/kobe",
         },
         {
-          "text": "Kyoto",
-          "link": "/kyoto"
+          text: "Kyoto",
+          link: "/kyoto",
         },
         {
-          "text": "La Rochelle",
-          "link": "/la-rochelle"
+          text: "La Rochelle",
+          link: "/la-rochelle",
         },
         {
-          "text": "Los Angeles",
-          "link": "/los-angeles"
+          text: "Los Angeles",
+          link: "/los-angeles",
         },
         {
-          "text": "Miami",
-          "link": "/miami"
+          text: "Miami",
+          link: "/miami",
         },
         {
-          "text": "Nara",
-          "link": "/nara"
+          text: "Nara",
+          link: "/nara",
         },
         {
-          "text": "New York",
-          "link": "/new-york"
+          text: "New York",
+          link: "/new-york",
         },
         {
-          "text": "Osaka",
-          "link": "/osaka"
+          text: "Osaka",
+          link: "/osaka",
         },
         {
-          "text": "Rome",
-          "link": "/rome"
+          text: "Rome",
+          link: "/rome",
         },
         {
-          "text": "Saint Malo",
-          "link": "/saint-malo"
+          text: "Saint Malo",
+          link: "/saint-malo",
         },
         {
-          "text": "Tarbes",
-          "link": "/tarbes"
+          text: "Tarbes",
+          link: "/tarbes",
         },
         {
-          "text": "Tokyo",
-          "link": "/tokyo"
+          text: "Tokyo",
+          link: "/tokyo",
         },
         {
-          "text": "Toulouse",
-          "link": "/toulouse"
-        }
-      ]
-    }
+          text: "Toulouse",
+          link: "/toulouse",
+        },
+      ],
+    },
   ],
   "/webtoon": [
     {
-      "base": "/webtoon",
-      "text": "Webtoon",
-      "items": [
+      base: "/webtoon",
+      text: "Webtoon",
+      items: [
         {
-          "text": "Index",
-          "link": "/index"
-        }
-      ]
-    }
-  ]
-} satisfies DefaultTheme.Sidebar
+          text: "Index",
+          link: "/index",
+        },
+      ],
+    },
+  ],
+} satisfies DefaultTheme.Sidebar;

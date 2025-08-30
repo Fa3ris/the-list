@@ -6,51 +6,51 @@ export default [
   {
     text: "Categories",
     items: [
-  {
-    "text": "Anime",
-    "link": "/anime"
-  },
-  {
-    "text": "Book",
-    "link": "/book"
-  },
-  {
-    "text": "Programming",
-    "link": "/dev"
-  },
-  {
-    "text": "Game",
-    "link": "/game"
-  },
-  {
-    "text": "Japanese",
-    "link": "/japanese"
-  },
-  {
-    "text": "Manga",
-    "link": "/manga"
-  },
-  {
-    "text": "Movie",
-    "link": "/movie"
-  },
-  {
-    "text": "Music",
-    "link": "/music"
-  },
-  {
-    "text": "Series",
-    "link": "/series"
-  },
-  {
-    "text": "Travel",
-    "link": "/travel"
-  },
-  {
-    "text": "Webtoon",
-    "link": "/webtoon"
-  }
-],
+      {
+        text: "Anime",
+        link: "/anime",
+      },
+      {
+        text: "Book",
+        link: "/book",
+      },
+      {
+        text: "Programming",
+        link: "/dev",
+      },
+      {
+        text: "Game",
+        link: "/game",
+      },
+      {
+        text: "Japanese",
+        link: "/japanese",
+      },
+      {
+        text: "Manga",
+        link: "/manga",
+      },
+      {
+        text: "Movie",
+        link: "/movie",
+      },
+      {
+        text: "Music",
+        link: "/music",
+      },
+      {
+        text: "Series",
+        link: "/series",
+      },
+      {
+        text: "Travel",
+        link: "/travel",
+      },
+      {
+        text: "Webtoon",
+        link: "/webtoon",
+      },
+    ],
   },
   { text: "Deployment", link: "/deployment" },
 ] as DefaultTheme.NavItem[];

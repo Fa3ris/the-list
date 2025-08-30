@@ -1,6 +1,9 @@
-import { createLoaderForDirectory, type YamlMetadata } from './directory-entries-loader';
+import {
+  createLoaderForDirectory,
+  type YamlMetadata,
+} from "./directory-entries-loader";
 
-declare const data:  YamlMetadata[]
+declare const data: YamlMetadata[];
 export { data };
 
-export default createLoaderForDirectory('manga')
+export default createLoaderForDirectory("manga");

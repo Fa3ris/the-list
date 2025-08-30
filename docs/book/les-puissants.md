@@ -1,6 +1,3 @@
 ---
 title: Les puissants
 ---
-
-
-

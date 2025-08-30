@@ -1,6 +1,3 @@
 ---
 title: made in abyss
 ---
-
-
-

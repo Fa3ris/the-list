@@ -1,6 +1,3 @@
 ---
 title: We never learn
 ---
-
-
-

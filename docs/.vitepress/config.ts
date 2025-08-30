@@ -5,7 +5,7 @@ import path from "path";
 
 // https://vitepress.dev/reference/site-config
 
-const base = '/the-list'
+const base = "/the-list";
 export default defineConfig({
   title: "The List",
   description: "Things I did or plan to do someday... maybe",
@@ -29,24 +29,28 @@ export default defineConfig({
     aside: false,
     socialLinks: [{ icon: "github", link: "https://github.com/Fa3ris" }],
   },
-  head: [["link", { rel: "icon", href: `${base}/checklist.png`, type: "image/png" }]],
+  head: [
+    ["link", { rel: "icon", href: `${base}/checklist.png`, type: "image/png" }],
+  ],
   markdown: {
     config(md) {
       // automatically add the title to the markdown page
-      md.core.ruler.before('normalize', 'custom_title', (state) => {
+      md.core.ruler.before("normalize", "custom_title", (state) => {
         // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-member-access
-        const { title, emoji } = state.env.frontmatter || {}
-        if (!title) { return }
-        state.src = `# ${emoji ? `${emoji} ` : ''}${title}\n${state.src}`
-      })
-    }
+        const { title, emoji } = state.env.frontmatter || {};
+        if (!title) {
+          return;
+        }
+        state.src = `# ${emoji ? `${emoji} ` : ""}${title}\n${state.src}`;
+      });
+    },
   },
   vite: {
     resolve: {
       alias: {
-        '@components': path.resolve(import.meta.dirname, '..', '..', 'src'),
-        '@vp': path.resolve(import.meta.dirname)
-      }
-    }
-  }
+        "@components": path.resolve(import.meta.dirname, "..", "..", "src"),
+        "@vp": path.resolve(import.meta.dirname),
+      },
+    },
+  },
 });
