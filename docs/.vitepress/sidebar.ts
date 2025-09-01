@@ -629,7 +629,7 @@ export default {
         },
         {
           text: "Pokemon donjon mystère",
-          link: "/pokemon-donjon-mystre",
+          link: "/pokemon-donjon-mystere",
         },
         {
           text: "✅⭐️ Pokemon Argent",
