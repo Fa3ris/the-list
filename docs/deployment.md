@@ -18,11 +18,11 @@ const handleVarChange = (name, value) => {
 }
 </script>
 
-# Configure Colors
+## Configure Colors
 
 <CssVarConfigurer/>
 
-# GitHub Pages Deployment Guide
+## GitHub Pages Deployment Guide
 
 This project is configured to automatically deploy to GitHub Pages whenever changes are merged to the `master` branch.
 

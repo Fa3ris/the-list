@@ -12,7 +12,7 @@ A static website built with VitePress to track things I've done, am doing, or wa
 
 ## 📁 Project Structure
 
-```
+``` txt
 ├── docs/                    # VitePress content and config
 │   ├── .vitepress/         # VitePress configuration
 │   │   ├── config.ts       # Main VitePress config

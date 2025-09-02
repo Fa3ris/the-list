@@ -39,5 +39,7 @@
     "docs/.vitepress/**/*.ts",
     "docs/.vitepress/**/*.vue",
     "docs/**/*.md",
+    "README.md",
+    "TODO.md"
   ]
 }

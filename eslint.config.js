@@ -2,7 +2,7 @@ import js from "@eslint/js";
 import globals from "globals";
 import tseslint from "typescript-eslint";
 // import pluginVue from "eslint-plugin-vue";
-// import markdown from "@eslint/markdown";
+import markdown from "@eslint/markdown";
 // import css from "@eslint/css";
 import { defineConfig, globalIgnores } from "eslint/config";
 // Note the `/flat` suffix here, the difference from default entry is that
@@ -37,10 +37,16 @@ export default defineConfig([
   //   files: ["**/*.vue"],
   //   languageOptions: { parserOptions: { parser: tseslint.parser } },
   // },
-  // {
-  //   files: ["**/*.md"],
-  //   ...markdown.configs.recommended,
-  // },
+  {
+    files: ["**/*.md"],
+    plugins: {
+      markdown
+    },
+    extends: [markdown.configs.recommended],
+    rules: {
+      "markdown/no-missing-label-refs": 'off'
+    }
+  },
   // {
   //   files: ["**/*.css"],
   //   ...css.configs.recommended
