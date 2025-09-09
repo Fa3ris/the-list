@@ -25,3 +25,19 @@ https://github.com/orta
 https://www.zhenghao.io/posts
 
 https://cekrem.github.io/posts/books-i-think-software-engineers-should-read/
+
+
+This FEELS TOO REAL
+https://www.simplethread.com/unnecessary-anxiety-in-software-development
+
+
+https://endler.dev/2025/how-to-review-code/?ref=dailydev
+
+
+https://bjornlu.com/blog/hot-module-replacement-is-easy
+
+
+
+You have 2 options for code execution strategies in a frontend app: eager and lazy
+both are bad first interaction delay. What do you do?
+https://philipwalton.com/articles/idle-until-urgent/

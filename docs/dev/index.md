@@ -22,6 +22,13 @@ graphics programming - renderer - raycaster - raytracer
 
 visual novel - twine - renpy
 
+
+CLI examples
+
+exercices for programmers
+http://repo.darmajaya.ac.id/4045/1/Exercises%20for%20Programmers_%2057%20Challenges%20to%20Develop%20Your%20Coding%20Skills%20%28%20PDFDrive%20%29.pdf
+
+
 rpg
 
 roguelike
