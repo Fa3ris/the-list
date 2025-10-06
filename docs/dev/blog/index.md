@@ -41,3 +41,24 @@ https://bjornlu.com/blog/hot-module-replacement-is-easy
 You have 2 options for code execution strategies in a frontend app: eager and lazy
 both are bad first interaction delay. What do you do?
 https://philipwalton.com/articles/idle-until-urgent/
+
+
+how people learn to create this kind of stuff???
+
+https://c0de517e.com/020_imgpeek.htm?ref=dailydev
+
+https://robertheaton.com/
+
+
+ChatGPT telling people a feature exists when it actually does not
+
+https://www.holovaty.com/writing/chatgpt-fake-feature/
+
+
+
+cool looking pokemon cards with CSS
+https://poke-holo.simey.me/?ref=dailydev
+
+
+
+https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/
